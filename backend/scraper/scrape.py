@@ -1,8 +1,12 @@
+import requests
 from bs4 import BeautifulSoup
-from pathlib import Path
 
-path = Path("../htmls/west.txt")
-html = path.read_text(encoding="utf-8")
-soup = BeautifulSoup(html, "lxml")
-# print(soup.prettify())
-print(soup.title.string)
+url = "https://www.bu.edu/dining/location/west/#menu"
+headers = {"User-Agent": "tastebu-hackathon/1.0 (+contact@example.com)"}
+
+resp = requests.get(url, headers=headers, timeout=20)
+resp.raise_for_status()  # throws if 4xx/5xx
+
+html = resp.text
+soup = BeautifulSoup(html, "lxml")  # or "html.parser"
+print(soup.title.get_text(strip=True))

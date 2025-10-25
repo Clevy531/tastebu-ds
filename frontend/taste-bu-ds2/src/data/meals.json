@@ -1,0 +1,80 @@
+[
+  {
+    "id": "1",
+    "name": "Scrambled Eggs & Toast",
+    "hall": "West Campus Dining Hall",
+    "mealType": "breakfast",
+    "calories": 350,
+    "protein": 18,
+    "carbs": 32,
+    "fat": 15,
+    "allergens": ["Eggs", "Wheat", "Gluten"],
+    "tags": ["Vegetarian"],
+    "description" : "THIS IS A TEST"
+  },
+  {
+    "id": "2",
+    "name": "Oatmeal with Berries",
+    "hall": "Warren Dining Hall",
+    "mealType": "breakfast",
+    "calories": 280,
+    "protein": 8,
+    "carbs": 52,
+    "fat": 5,
+    "allergens": [],
+    "tags": ["Vegan", "Gluten-Free"],
+    "description" : "THIS IS A TEST"
+  },
+  {
+    "id": "3",
+    "name": "Grilled Chicken Salad",
+    "hall": "East Campus Dining Hall",
+    "mealType": "lunch",
+    "calories": 420,
+    "protein": 35,
+    "carbs": 25,
+    "fat": 18,
+    "allergens": [],
+    "tags": ["Gluten-Free", "Low-Carb"],
+    "description" : "THIS IS A TEST"
+  },
+  {
+    "id": "4",
+    "name": "Vegetable Stir Fry with Rice",
+    "hall": "West Campus Dining Hall",
+    "mealType": "lunch",
+    "calories": 380,
+    "protein": 12,
+    "carbs": 65,
+    "fat": 8,
+    "allergens": ["Soy"],
+    "tags": ["Vegan", "Vegetarian"],
+    "description" : "THIS IS A TEST"
+  },
+  {
+    "id": "5",
+    "name": "Baked Salmon with Quinoa",
+    "hall": "Warren Dining Hall",
+    "mealType": "dinner",
+    "calories": 520,
+    "protein": 42,
+    "carbs": 38,
+    "fat": 22,
+    "allergens": ["Fish"],
+    "tags": ["Pescatarian", "Gluten-Free"],
+    "description" : "THIS IS A TEST"
+  },
+  {
+    "id": "6",
+    "name": "Pasta Primavera",
+    "hall": "East Campus Dining Hall",
+    "mealType": "dinner",
+    "calories": 450,
+    "protein": 15,
+    "carbs": 72,
+    "fat": 12,
+    "allergens": ["Wheat", "Gluten", "Milk"],
+    "tags": ["Vegetarian"],
+    "description" : "THIS IS A TEST"
+  }
+]

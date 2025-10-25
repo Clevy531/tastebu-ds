@@ -9,4 +9,4 @@ resp.raise_for_status()  # throws if 4xx/5xx
 
 html = resp.text
 soup = BeautifulSoup(html, "lxml")  # or "html.parser"
-print(soup.title.get_text(strip=True))
+print(soup.find_all("p"))

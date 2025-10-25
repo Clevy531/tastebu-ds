@@ -10,19 +10,16 @@ interface PreferencesSetupProps {
 
 const commonAllergens = [
   "Peanuts", "Tree Nuts", "Almonds", "Walnuts", "Cashews", "Pecans", "Pistachios",
-  "Milk", "Eggs", "Fish", "Shellfish", "Shrimp", "Crab", "Lobster",
+   "Eggs", "Fish", "Shellfish", "Shrimp", "Crab", "Lobster",
   "Soy", "Wheat", "Gluten", "Sesame", "Mustard", "Celery",
-  "Lupin", "Sulfites", "Mollusks", "Corn", "Coconut", "Pine Nuts",
-  "Sunflower Seeds", "Poppy Seeds", "Fennel", "Peach", "Banana",
-  "Avocado", "Kiwi", "Passion Fruit", "Papaya", "Chickpeas", "Lentils"
+    "Corn", "Coconut", "Pine Nuts", "Sunflower Seeds", "Poppy Seeds",
+    "Fennel", "Peach", "Banana", "Avocado", "Kiwi", "Passion Fruit",
+    "Papaya", "Chickpeas", "Lentils", "Dairy"
 ];
 
 const dietaryOptions = [
   "Vegan", "Vegetarian", "Pescatarian", "Halal", "Kosher",
-  "Gluten-Free", "Dairy-Free", "Low-Carb", "Keto", "Paleo",
-  "Low-Sodium", "Low-Fat", "High-Protein", "Raw Food", "Whole30",
-  "Mediterranean", "FODMAP", "Nut-Free", "Soy-Free", "Egg-Free",
-  "Lactose-Free", "Sugar-Free", "Organic", "Non-GMO", "Local"
+  "Gluten-Free", "Low-Carb", "Low-Sodium", "Low-Fat", "High-Protein"
 ];
 
 const PreferencesSetup = ({ onComplete }: PreferencesSetupProps) => {

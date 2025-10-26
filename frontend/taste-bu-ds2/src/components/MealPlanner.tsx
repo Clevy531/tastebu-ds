@@ -1,7 +1,12 @@
 import { useState } from "react";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
+import {
+    Dialog,
+    DialogContent,
+    DialogHeader,
+    DialogTitle,
+} from "@/components/ui/dialog";
 import { ChevronLeft } from "lucide-react";
 import logo from "@/assets/taste-logo.png";
 import mealsData from "@/data/meals.json";
@@ -27,50 +32,53 @@ interface Meal {
     ingredients: string[];
 }
 
-const mockMeals: Meal[] = mealsData as Meal[];
+const meals: Meal[] = mealsData as Meal[];
 
 const MealPlanner = ({ allergens, dietaryPrefs, onBack }: MealPlannerProps) => {
     const [selectedMeal, setSelectedMeal] = useState<Meal | null>(null);
 
-    const filterMeals = (mealType: "breakfast" | "lunch" | "dinner") => {
-        return mockMeals.filter(meal => {
-            if (meal.mealType !== mealType) return false;
+    // Helper: normalize strings for comparison
+    const normalize = (str: string) => str.trim().toLowerCase();
 
-            // Allergens filter
-            if (allergens.length > 0) {
-                const hasAllergen = meal.allergens.some(a =>
-                    allergens.some(userAllergen =>
-                        a.toLowerCase().includes(userAllergen.toLowerCase())
-                    )
-                );
-                if (hasAllergen) return false;
+    const isMealAllowed = (meal: Meal) => {
+        const userAllergens = allergens.map(normalize);
+        const userDiets = dietaryPrefs.map(normalize);
+
+        // Combine allergens + ingredients, normalize
+        const mealItems = [...meal.allergens, ...meal.ingredients].map(normalize);
+
+        // Block if any user allergen is in meal items
+        if (userAllergens.some(a => mealItems.includes(a))) return false;
+
+        // Dietary preference checks
+        const mealDiets = meal.dietaryRestrictions.map(normalize);
+        const mealIngredients = meal.ingredients.map(normalize);
+
+        for (let pref of userDiets) {
+            switch (pref) {
+                case "vegan":
+                case "vegetarian":
+                    if (!mealDiets.includes(pref)) return false;
+                    break;
+                case "pescatarian":
+                    const nonPescMeats = ["beef", "chicken", "pork", "lamb"];
+                    if (!mealDiets.includes("pescatarian") && mealIngredients.some(i => nonPescMeats.includes(i)))
+                        return false;
+                    break;
+                case "halal":
+                case "kosher":
+                    if (!mealDiets.includes(pref)) return false;
+                    break;
+                default:
+                    if (!mealDiets.includes(pref)) return false;
             }
+        }
 
-            // Dietary preferences filter
-            if (dietaryPrefs.length > 0) {
-                for (let pref of dietaryPrefs) {
-                    const mealTags = meal.dietaryRestrictions.map(t => t.toLowerCase());
-                    pref = pref.toLowerCase();
-
-                    if (pref === "vegan" || pref === "vegetarian") {
-                        // Must explicitly include the tag
-                        if (!mealTags.includes(pref)) return false;
-                    } else if (pref === "pescatarian") {
-                        // Show if meal is pescatarian OR does not contain meat
-                        const nonPescatarianMeat = ["beef", "chicken", "pork", "lamb"];
-                        const ingredientsLower = meal.ingredients.map(i => i.toLowerCase());
-                        const hasMeat = ingredientsLower.some(i => nonPescatarianMeat.includes(i));
-                        if (!mealTags.includes(pref) && hasMeat) return false;
-                    } else {
-                        // Optional diets like Gluten-Free, Low-Carb
-                        if (!mealTags.includes(pref)) return false;
-                    }
-                }
-            }
-
-            return true;
-        });
+        return true;
     };
+
+    const filterMealsByType = (mealType: Meal["mealType"]) =>
+        meals.filter(meal => meal.mealType === mealType && isMealAllowed(meal));
 
     const MealCard = ({ meal }: { meal: Meal }) => (
         <Card
@@ -92,8 +100,8 @@ const MealPlanner = ({ allergens, dietaryPrefs, onBack }: MealPlannerProps) => {
                             key={tag}
                             className="text-xs bg-primary/20 text-primary px-2 py-0.5 rounded"
                         >
-                            {tag}
-                        </span>
+              {tag}
+            </span>
                     ))}
                 </div>
             )}
@@ -116,24 +124,25 @@ const MealPlanner = ({ allergens, dietaryPrefs, onBack }: MealPlannerProps) => {
             </header>
 
             <div className="container mx-auto p-6 max-w-6xl">
-                {["breakfast", "lunch", "dinner"].map(mealType => (
-                    <section key={mealType} className="mb-10">
-                        <h2 className="text-2xl font-bold text-foreground mb-4">
-                            {mealType.charAt(0).toUpperCase() + mealType.slice(1)}
-                        </h2>
-                        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
-                            {filterMeals(mealType as "breakfast" | "lunch" | "dinner").length > 0 ? (
-                                filterMeals(mealType as "breakfast" | "lunch" | "dinner").map(meal => (
-                                    <MealCard key={meal.id} meal={meal} />
-                                ))
-                            ) : (
-                                <p className="text-muted-foreground col-span-full">
-                                    No meals match your preferences
-                                </p>
-                            )}
-                        </div>
-                    </section>
-                ))}
+                {(["breakfast", "lunch", "dinner"] as Meal["mealType"][]).map(mealType => {
+                    const mealsOfType = filterMealsByType(mealType);
+                    return (
+                        <section key={mealType} className="mb-10">
+                            <h2 className="text-2xl font-bold text-foreground mb-4 capitalize">
+                                {mealType}
+                            </h2>
+                            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+                                {mealsOfType.length > 0 ? (
+                                    mealsOfType.map(meal => <MealCard key={meal.id} meal={meal} />)
+                                ) : (
+                                    <p className="text-muted-foreground col-span-full">
+                                        No meals match your preferences
+                                    </p>
+                                )}
+                            </div>
+                        </section>
+                    );
+                })}
 
                 <Button
                     onClick={onBack}
@@ -145,7 +154,7 @@ const MealPlanner = ({ allergens, dietaryPrefs, onBack }: MealPlannerProps) => {
                 </Button>
             </div>
 
-            {/* Nutrition Details Dialog */}
+            {/* Nutrition Dialog */}
             <Dialog open={selectedMeal !== null} onOpenChange={() => setSelectedMeal(null)}>
                 <DialogContent className="bg-card border-border">
                     <DialogHeader>
@@ -168,7 +177,7 @@ const MealPlanner = ({ allergens, dietaryPrefs, onBack }: MealPlannerProps) => {
                                         <span>{selectedMeal.protein}g</span>
                                     </div>
                                     <div className="flex justify-between">
-                                        <span>Carbohydrates</span>
+                                        <span>Carbs</span>
                                         <span>{selectedMeal.carbs}g</span>
                                     </div>
                                     <div className="flex justify-between">
@@ -187,8 +196,8 @@ const MealPlanner = ({ allergens, dietaryPrefs, onBack }: MealPlannerProps) => {
                                                 key={allergen}
                                                 className="text-sm bg-destructive/20 text-destructive px-2 py-1 rounded"
                                             >
-                                                {allergen}
-                                            </span>
+                        {allergen}
+                      </span>
                                         ))}
                                     </div>
                                 </div>
@@ -203,8 +212,8 @@ const MealPlanner = ({ allergens, dietaryPrefs, onBack }: MealPlannerProps) => {
                                                 key={tag}
                                                 className="text-sm bg-primary/20 text-primary px-2 py-1 rounded"
                                             >
-                                                {tag}
-                                            </span>
+                        {tag}
+                      </span>
                                         ))}
                                     </div>
                                 </div>

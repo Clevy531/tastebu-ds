@@ -32,12 +32,11 @@ const mockMeals: Meal[] = mealsData as Meal[];
 const MealPlanner = ({ allergens, dietaryPrefs, onBack }: MealPlannerProps) => {
     const [selectedMeal, setSelectedMeal] = useState<Meal | null>(null);
 
-    // Fixed filter logic
     const filterMeals = (mealType: "breakfast" | "lunch" | "dinner") => {
         return mockMeals.filter(meal => {
             if (meal.mealType !== mealType) return false;
 
-            // Only filter allergens if user has selected any
+            // Allergens filter
             if (allergens.length > 0) {
                 const hasAllergen = meal.allergens.some(a =>
                     allergens.some(userAllergen =>
@@ -47,14 +46,26 @@ const MealPlanner = ({ allergens, dietaryPrefs, onBack }: MealPlannerProps) => {
                 if (hasAllergen) return false;
             }
 
-            // Only filter dietary preferences if user has selected any
+            // Dietary preferences filter
             if (dietaryPrefs.length > 0) {
-                const matchesDietary = dietaryPrefs.some(pref =>
-                    meal.dietaryRestrictions.some(tag =>
-                        tag.toLowerCase().includes(pref.toLowerCase())
-                    )
-                );
-                if (!matchesDietary) return false;
+                for (let pref of dietaryPrefs) {
+                    const mealTags = meal.dietaryRestrictions.map(t => t.toLowerCase());
+                    pref = pref.toLowerCase();
+
+                    if (pref === "vegan" || pref === "vegetarian") {
+                        // Must explicitly include the tag
+                        if (!mealTags.includes(pref)) return false;
+                    } else if (pref === "pescatarian") {
+                        // Show if meal is pescatarian OR does not contain meat
+                        const nonPescatarianMeat = ["beef", "chicken", "pork", "lamb"];
+                        const ingredientsLower = meal.ingredients.map(i => i.toLowerCase());
+                        const hasMeat = ingredientsLower.some(i => nonPescatarianMeat.includes(i));
+                        if (!mealTags.includes(pref) && hasMeat) return false;
+                    } else {
+                        // Optional diets like Gluten-Free, Low-Carb
+                        if (!mealTags.includes(pref)) return false;
+                    }
+                }
             }
 
             return true;
@@ -81,8 +92,8 @@ const MealPlanner = ({ allergens, dietaryPrefs, onBack }: MealPlannerProps) => {
                             key={tag}
                             className="text-xs bg-primary/20 text-primary px-2 py-0.5 rounded"
                         >
-              {tag}
-            </span>
+                            {tag}
+                        </span>
                     ))}
                 </div>
             )}
@@ -105,53 +116,24 @@ const MealPlanner = ({ allergens, dietaryPrefs, onBack }: MealPlannerProps) => {
             </header>
 
             <div className="container mx-auto p-6 max-w-6xl">
-                {/* Breakfast */}
-                <section className="mb-10">
-                    <h2 className="text-2xl font-bold text-foreground mb-4">Breakfast</h2>
-                    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
-                        {filterMeals("breakfast").length > 0 ? (
-                            filterMeals("breakfast").map(meal => (
-                                <MealCard key={meal.id} meal={meal} />
-                            ))
-                        ) : (
-                            <p className="text-muted-foreground col-span-full">
-                                No meals match your preferences
-                            </p>
-                        )}
-                    </div>
-                </section>
-
-                {/* Lunch */}
-                <section className="mb-10">
-                    <h2 className="text-2xl font-bold text-foreground mb-4">Lunch</h2>
-                    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
-                        {filterMeals("lunch").length > 0 ? (
-                            filterMeals("lunch").map(meal => (
-                                <MealCard key={meal.id} meal={meal} />
-                            ))
-                        ) : (
-                            <p className="text-muted-foreground col-span-full">
-                                No meals match your preferences
-                            </p>
-                        )}
-                    </div>
-                </section>
-
-                {/* Dinner */}
-                <section className="mb-10">
-                    <h2 className="text-2xl font-bold text-foreground mb-4">Dinner</h2>
-                    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
-                        {filterMeals("dinner").length > 0 ? (
-                            filterMeals("dinner").map(meal => (
-                                <MealCard key={meal.id} meal={meal} />
-                            ))
-                        ) : (
-                            <p className="text-muted-foreground col-span-full">
-                                No meals match your preferences
-                            </p>
-                        )}
-                    </div>
-                </section>
+                {["breakfast", "lunch", "dinner"].map(mealType => (
+                    <section key={mealType} className="mb-10">
+                        <h2 className="text-2xl font-bold text-foreground mb-4">
+                            {mealType.charAt(0).toUpperCase() + mealType.slice(1)}
+                        </h2>
+                        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+                            {filterMeals(mealType as "breakfast" | "lunch" | "dinner").length > 0 ? (
+                                filterMeals(mealType as "breakfast" | "lunch" | "dinner").map(meal => (
+                                    <MealCard key={meal.id} meal={meal} />
+                                ))
+                            ) : (
+                                <p className="text-muted-foreground col-span-full">
+                                    No meals match your preferences
+                                </p>
+                            )}
+                        </div>
+                    </section>
+                ))}
 
                 <Button
                     onClick={onBack}
@@ -174,7 +156,6 @@ const MealPlanner = ({ allergens, dietaryPrefs, onBack }: MealPlannerProps) => {
                         <div className="space-y-4">
                             <p className="text-muted-foreground">{selectedMeal.hall}</p>
 
-                            {/* Nutrition Facts */}
                             <div className="border-t border-border pt-4">
                                 <h4 className="font-semibold text-foreground mb-3">Nutrition Facts</h4>
                                 <div className="space-y-2 text-foreground">
@@ -197,7 +178,6 @@ const MealPlanner = ({ allergens, dietaryPrefs, onBack }: MealPlannerProps) => {
                                 </div>
                             </div>
 
-                            {/* Allergens */}
                             {selectedMeal.allergens.length > 0 && (
                                 <div className="border-t border-border pt-4">
                                     <h4 className="font-semibold text-foreground mb-2">Contains Allergens</h4>
@@ -207,14 +187,13 @@ const MealPlanner = ({ allergens, dietaryPrefs, onBack }: MealPlannerProps) => {
                                                 key={allergen}
                                                 className="text-sm bg-destructive/20 text-destructive px-2 py-1 rounded"
                                             >
-                        {allergen}
-                      </span>
+                                                {allergen}
+                                            </span>
                                         ))}
                                     </div>
                                 </div>
                             )}
 
-                            {/* Dietary Restrictions */}
                             {selectedMeal.dietaryRestrictions.length > 0 && (
                                 <div className="border-t border-border pt-4">
                                     <h4 className="font-semibold text-foreground mb-2">Dietary Restrictions</h4>
@@ -224,14 +203,13 @@ const MealPlanner = ({ allergens, dietaryPrefs, onBack }: MealPlannerProps) => {
                                                 key={tag}
                                                 className="text-sm bg-primary/20 text-primary px-2 py-1 rounded"
                                             >
-                        {tag}
-                      </span>
+                                                {tag}
+                                            </span>
                                         ))}
                                     </div>
                                 </div>
                             )}
 
-                            {/* Meal Description */}
                             {selectedMeal.description && (
                                 <div className="border-t border-border pt-4">
                                     <h4 className="font-semibold text-foreground mb-2">Description</h4>

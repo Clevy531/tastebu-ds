@@ -22,7 +22,7 @@ interface Meal {
     carbs: number;
     fat: number;
     allergens: string[];
-    tags: string[];
+    dietaryRestrictions: string[];
     description: string;
     ingredients: string[];
 }
@@ -45,7 +45,7 @@ const MealPlanner = ({ allergens, dietaryPrefs, onBack }: MealPlannerProps) => {
 
             if (dietaryPrefs.length > 0) {
                 const matchesDietary = dietaryPrefs.some(pref =>
-                    meal.tags.some(tag =>
+                    meal.dietaryRestrictions.some(tag =>
                         tag.toLowerCase().includes(pref.toLowerCase())
                     )
                 );
@@ -69,9 +69,9 @@ const MealPlanner = ({ allergens, dietaryPrefs, onBack }: MealPlannerProps) => {
                 <span>{meal.carbs}g carbs</span>
                 <span>{meal.fat}g fat</span>
             </div>
-            {meal.tags.length > 0 && (
+            {meal.dietaryRestrictions.length > 0 && (
                 <div className="flex flex-wrap gap-1 mt-2">
-                    {meal.tags.map(tag => (
+                    {meal.dietaryRestrictions.map(tag => (
                         <span key={tag} className="text-xs bg-primary/20 text-primary px-2 py-0.5 rounded">
               {tag}
             </span>
@@ -193,12 +193,12 @@ const MealPlanner = ({ allergens, dietaryPrefs, onBack }: MealPlannerProps) => {
                                 </div>
                             )}
 
-                            {/* Dietary Tags */}
-                            {selectedMeal.tags.length > 0 && (
+                            {/* Dietary Restrictions */}
+                            {selectedMeal.dietaryRestrictions.length > 0 && (
                                 <div className="border-t border-border pt-4">
-                                    <h4 className="font-semibold text-foreground mb-2">Dietary Tags</h4>
+                                    <h4 className="font-semibold text-foreground mb-2">Dietary Restrictions</h4>
                                     <div className="flex flex-wrap gap-2">
-                                        {selectedMeal.tags.map(tag => (
+                                        {selectedMeal.dietaryRestrictions.map(tag => (
                                             <span key={tag} className="text-sm bg-primary/20 text-primary px-2 py-1 rounded">
                         {tag}
                       </span>

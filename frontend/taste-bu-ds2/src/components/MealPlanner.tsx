@@ -1,7 +1,12 @@
 import { useState, useEffect } from "react";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
+import {
+    Dialog,
+    DialogContent,
+    DialogHeader,
+    DialogTitle,
+} from "@/components/ui/dialog";
 import { ChevronLeft, AlertCircle } from "lucide-react";
 import logo from "@/assets/taste-logo.png";
 
@@ -78,9 +83,8 @@ const MealPlanner = ({ allergens, dietaryPrefs, onBack }: MealPlannerProps) => {
         fetchMeals();
     }, [allergens, dietaryPrefs]);
 
-    const filterMeals = (mealType: "breakfast" | "lunch" | "dinner") => {
-        return meals.filter(meal => meal.mealType === mealType);
-    };
+    const filterMealsByType = (mealType: Meal["mealType"]) =>
+        meals.filter(meal => meal.mealType === mealType);
 
     const MealCard = ({ meal }: { meal: Meal }) => (
         <Card
@@ -130,21 +134,20 @@ const MealPlanner = ({ allergens, dietaryPrefs, onBack }: MealPlannerProps) => {
                 {error && (
                     <div className="bg-destructive/10 border border-destructive/20 rounded-lg p-4 mb-6 flex items-center gap-3">
                         <AlertCircle className="text-destructive" size={20} />
-                        <div>
+                        <div className="flex-1">
                             <p className="text-destructive font-semibold">Error loading meals</p>
                             <p className="text-sm text-muted-foreground">{error}</p>
                             <p className="text-sm text-muted-foreground mt-1">
                                 Make sure your Flask backend is running on port 5001
                             </p>
-                            <Button 
-                                onClick={fetchMeals} 
-                                variant="outline" 
-                                size="sm" 
-                                className="mt-2"
-                            >
-                                Retry
-                            </Button>
                         </div>
+                        <Button 
+                            onClick={fetchMeals} 
+                            variant="outline" 
+                            size="sm"
+                        >
+                            Retry
+                        </Button>
                     </div>
                 )}
 
@@ -159,24 +162,25 @@ const MealPlanner = ({ allergens, dietaryPrefs, onBack }: MealPlannerProps) => {
                 {/* Meals sections */}
                 {!loading && !error && (
                     <>
-                        {["breakfast", "lunch", "dinner"].map(mealType => (
-                            <section key={mealType} className="mb-10">
-                                <h2 className="text-2xl font-bold text-foreground mb-4">
-                                    {mealType.charAt(0).toUpperCase() + mealType.slice(1)}
-                                </h2>
-                                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
-                                    {filterMeals(mealType as "breakfast" | "lunch" | "dinner").length > 0 ? (
-                                        filterMeals(mealType as "breakfast" | "lunch" | "dinner").map(meal => (
-                                            <MealCard key={meal.id} meal={meal} />
-                                        ))
-                                    ) : (
-                                        <p className="text-muted-foreground col-span-full">
-                                            No meals match your preferences
-                                        </p>
-                                    )}
-                                </div>
-                            </section>
-                        ))}
+                        {(["breakfast", "lunch", "dinner"] as Meal["mealType"][]).map(mealType => {
+                            const mealsOfType = filterMealsByType(mealType);
+                            return (
+                                <section key={mealType} className="mb-10">
+                                    <h2 className="text-2xl font-bold text-foreground mb-4 capitalize">
+                                        {mealType}
+                                    </h2>
+                                    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+                                        {mealsOfType.length > 0 ? (
+                                            mealsOfType.map(meal => <MealCard key={meal.id} meal={meal} />)
+                                        ) : (
+                                            <p className="text-muted-foreground col-span-full">
+                                                No meals match your preferences
+                                            </p>
+                                        )}
+                                    </div>
+                                </section>
+                            );
+                        })}
 
                         <Button
                             onClick={onBack}
@@ -190,7 +194,7 @@ const MealPlanner = ({ allergens, dietaryPrefs, onBack }: MealPlannerProps) => {
                 )}
             </div>
 
-            {/* Nutrition Details Dialog */}
+            {/* Nutrition Dialog */}
             <Dialog open={selectedMeal !== null} onOpenChange={() => setSelectedMeal(null)}>
                 <DialogContent className="bg-card border-border">
                     <DialogHeader>
@@ -213,7 +217,7 @@ const MealPlanner = ({ allergens, dietaryPrefs, onBack }: MealPlannerProps) => {
                                         <span>{selectedMeal.protein}g</span>
                                     </div>
                                     <div className="flex justify-between">
-                                        <span>Carbohydrates</span>
+                                        <span>Carbs</span>
                                         <span>{selectedMeal.carbs}g</span>
                                     </div>
                                     <div className="flex justify-between">
@@ -286,4 +290,3 @@ const MealPlanner = ({ allergens, dietaryPrefs, onBack }: MealPlannerProps) => {
 };
 
 export default MealPlanner;
-

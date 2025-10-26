@@ -279,7 +279,6 @@
     "description": "Hearty chili with black beans, corn, and tomato.",
     "ingredients": ["Beans", "Tomato", "Corn", "Onion", "Chili powder"]
   },
-  [
     {
       "id": "21",
       "name": "Avocado Toast with Poached Egg",
@@ -560,5 +559,4 @@
       "description": "Hearty burrito stuffed with grilled chicken, rice, and beans.",
       "ingredients": ["Chicken Breast", "Rice", "Beans", "Tortilla", "Cheese"]
     }
-  ]
 ]

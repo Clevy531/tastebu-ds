@@ -32,17 +32,22 @@ const mockMeals: Meal[] = mealsData as Meal[];
 const MealPlanner = ({ allergens, dietaryPrefs, onBack }: MealPlannerProps) => {
     const [selectedMeal, setSelectedMeal] = useState<Meal | null>(null);
 
+    // Fixed filter logic
     const filterMeals = (mealType: "breakfast" | "lunch" | "dinner") => {
         return mockMeals.filter(meal => {
             if (meal.mealType !== mealType) return false;
 
-            const hasAllergen = meal.allergens.some(a =>
-                allergens.some(userAllergen =>
-                    a.toLowerCase().includes(userAllergen.toLowerCase())
-                )
-            );
-            if (hasAllergen) return false;
+            // Only filter allergens if user has selected any
+            if (allergens.length > 0) {
+                const hasAllergen = meal.allergens.some(a =>
+                    allergens.some(userAllergen =>
+                        a.toLowerCase().includes(userAllergen.toLowerCase())
+                    )
+                );
+                if (hasAllergen) return false;
+            }
 
+            // Only filter dietary preferences if user has selected any
             if (dietaryPrefs.length > 0) {
                 const matchesDietary = dietaryPrefs.some(pref =>
                     meal.dietaryRestrictions.some(tag =>
@@ -72,7 +77,10 @@ const MealPlanner = ({ allergens, dietaryPrefs, onBack }: MealPlannerProps) => {
             {meal.dietaryRestrictions.length > 0 && (
                 <div className="flex flex-wrap gap-1 mt-2">
                     {meal.dietaryRestrictions.map(tag => (
-                        <span key={tag} className="text-xs bg-primary/20 text-primary px-2 py-0.5 rounded">
+                        <span
+                            key={tag}
+                            className="text-xs bg-primary/20 text-primary px-2 py-0.5 rounded"
+                        >
               {tag}
             </span>
                     ))}
@@ -86,7 +94,11 @@ const MealPlanner = ({ allergens, dietaryPrefs, onBack }: MealPlannerProps) => {
             <header className="bg-card border-b border-border p-4 sticky top-0 z-10">
                 <div className="container mx-auto flex items-center gap-4">
                     <button onClick={onBack}>
-                        <img src={logo} alt="Taste BU-DS" className="h-12 w-auto hover:opacity-80 transition-opacity" />
+                        <img
+                            src={logo}
+                            alt="Taste BU-DS"
+                            className="h-12 w-auto hover:opacity-80 transition-opacity"
+                        />
                     </button>
                     <h1 className="text-xl font-bold text-foreground">Your Meal Plan</h1>
                 </div>
@@ -102,7 +114,9 @@ const MealPlanner = ({ allergens, dietaryPrefs, onBack }: MealPlannerProps) => {
                                 <MealCard key={meal.id} meal={meal} />
                             ))
                         ) : (
-                            <p className="text-muted-foreground col-span-full">No meals match your preferences</p>
+                            <p className="text-muted-foreground col-span-full">
+                                No meals match your preferences
+                            </p>
                         )}
                     </div>
                 </section>
@@ -116,7 +130,9 @@ const MealPlanner = ({ allergens, dietaryPrefs, onBack }: MealPlannerProps) => {
                                 <MealCard key={meal.id} meal={meal} />
                             ))
                         ) : (
-                            <p className="text-muted-foreground col-span-full">No meals match your preferences</p>
+                            <p className="text-muted-foreground col-span-full">
+                                No meals match your preferences
+                            </p>
                         )}
                     </div>
                 </section>
@@ -130,7 +146,9 @@ const MealPlanner = ({ allergens, dietaryPrefs, onBack }: MealPlannerProps) => {
                                 <MealCard key={meal.id} meal={meal} />
                             ))
                         ) : (
-                            <p className="text-muted-foreground col-span-full">No meals match your preferences</p>
+                            <p className="text-muted-foreground col-span-full">
+                                No meals match your preferences
+                            </p>
                         )}
                     </div>
                 </section>
@@ -185,7 +203,10 @@ const MealPlanner = ({ allergens, dietaryPrefs, onBack }: MealPlannerProps) => {
                                     <h4 className="font-semibold text-foreground mb-2">Contains Allergens</h4>
                                     <div className="flex flex-wrap gap-2">
                                         {selectedMeal.allergens.map(allergen => (
-                                            <span key={allergen} className="text-sm bg-destructive/20 text-destructive px-2 py-1 rounded">
+                                            <span
+                                                key={allergen}
+                                                className="text-sm bg-destructive/20 text-destructive px-2 py-1 rounded"
+                                            >
                         {allergen}
                       </span>
                                         ))}
@@ -199,7 +220,10 @@ const MealPlanner = ({ allergens, dietaryPrefs, onBack }: MealPlannerProps) => {
                                     <h4 className="font-semibold text-foreground mb-2">Dietary Restrictions</h4>
                                     <div className="flex flex-wrap gap-2">
                                         {selectedMeal.dietaryRestrictions.map(tag => (
-                                            <span key={tag} className="text-sm bg-primary/20 text-primary px-2 py-1 rounded">
+                                            <span
+                                                key={tag}
+                                                className="text-sm bg-primary/20 text-primary px-2 py-1 rounded"
+                                            >
                         {tag}
                       </span>
                                         ))}

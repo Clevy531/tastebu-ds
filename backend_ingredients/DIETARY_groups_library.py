@@ -13,7 +13,7 @@ DIETARY_DATABASE = {
     ],
     
     'kosher': [
-        'pork', 'shellfish', 'bacon', 'ham', 'sausage', 
+        'pork', 'shellfish', 'bacon', 'ham', 'sausage', 'shrimp'
     ],
     
     
@@ -23,7 +23,7 @@ DIETARY_DATABASE = {
     
     'vegan': [
         'chicken', 'beef', 'pork', 'fish', 'turkey', 'lamb',
-        'salmon', 'tuna', 'shrimp', 'bacon', 'ham',
+        'salmon', 'tuna', 'Shrimp', 'bacon', 'ham',
         'milk', 'cheese', 'yogurt', 'butter', 'eggs', 
         'honey', 'gelatin'],
     

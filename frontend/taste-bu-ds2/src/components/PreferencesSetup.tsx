@@ -14,7 +14,7 @@ const commonAllergens = [
     "Soy", "Wheat", "Gluten", "Sesame", "Mustard", "Celery",
     "Corn", "Coconut", "Pine Nuts", "Sunflower Seeds", "Poppy Seeds",
     "Fennel", "Peach", "Banana", "Avocado", "Kiwi", "Passion Fruit",
-    "Papaya", "Chickpeas", "Lentils", "Dairy"
+    "Papaya", "Chickpeas", "Lentils", "Dairy", "Seeds", "Seafood", 
 ];
 
 const dietaryOptions = [

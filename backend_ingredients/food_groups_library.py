@@ -39,7 +39,14 @@ FOOD_DATABASE = {
     # Eggs
     'eggs': [
         'eggs', 'egg whites', 'egg yolks', 'whole eggs'
-    ]
+    ],
+    
+    'fruit': [
+        'apple','banana', 'kiwi', 'passion fruit', 'peach', 'papaya'
+    ],
+    
+    'gluten': [
+        'wheat', 'flour', 'barley']
 }
 
 def get_food_group(food_item):
@@ -56,7 +63,7 @@ def get_all_in_group(group_name):
     """Get all foods in a specific group"""
     food_list = FOOD_DATABASE.get(group_name, [])
     
-    if food_list is None:
+    if not food_list:
         food_list = [group_name]
         
     return food_list

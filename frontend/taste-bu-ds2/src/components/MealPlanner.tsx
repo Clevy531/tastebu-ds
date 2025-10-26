@@ -53,7 +53,7 @@ const MealPlanner = ({ allergens, dietaryPrefs, onBack }: MealPlannerProps) => {
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ 
                     allergies: allergens, 
-                    dietary_restrictions: dietaryPrefs 
+                    dietaryRestrictions: dietaryPrefs 
                 })
             });
 

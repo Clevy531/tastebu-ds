@@ -1,0 +1,590 @@
+[
+  {
+    "id": "tomato-soup-with-garden-vegetables@lunch@the-fresh-food-co-at-warren-towers",
+    "name": "Tomato Soup With Garden Vegetables",
+    "hall": "The Fresh Food Co. at Warren Towers",
+    "mealType": "lunch",
+    "calories": 0,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 0,
+    "dietaryRestrictions": [],
+    "description": "Tomato Soup With Garden Vegetables"
+  },
+  {
+    "id": "chicken-noodle-soup@lunch@the-fresh-food-co-at-warren-towers",
+    "name": "Chicken Noodle Soup",
+    "hall": "The Fresh Food Co. at Warren Towers",
+    "mealType": "lunch",
+    "calories": 0,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 0,
+    "dietaryRestrictions": [],
+    "description": "Chicken Noodle Soup"
+  },
+  {
+    "id": "create-your-own-stir-fry-station@lunch@the-fresh-food-co-at-warren-towers",
+    "name": "Create Your Own Stir Fry Station",
+    "hall": "The Fresh Food Co. at Warren Towers",
+    "mealType": "lunch",
+    "calories": 145,
+    "protein": 26,
+    "carbs": 0,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Halal"
+    ],
+    "description": "Create Your Own Stir Fry Station",
+    "ingredients": "Halal Chicken Breast (boneless skinless chicken breasts with rib meat), Bottled Lemon Juice (filtered water, lemon juice concentrate, sodium bisulfite [preservative], sodium benzoate [preservative], lemon oil), Oil Blend (vegetable oil [may contain one or more of the following: 90% soybean and/or canola and/or corn oil, and/or sunflower oil], 10% olive [pomace] oil, beta-carotene), Fresh Garlic, Coarse Flaked Kosher Salt (salt, yellow prussiate of soda [yps]), Dried Oregano, Ground Black Pepper"
+  },
+  {
+    "id": "tomato-soup-with-garden-vegetables@dinner@the-fresh-food-co-at-warren-towers",
+    "name": "Tomato Soup With Garden Vegetables",
+    "hall": "The Fresh Food Co. at Warren Towers",
+    "mealType": "dinner",
+    "calories": 0,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 0,
+    "dietaryRestrictions": [],
+    "description": "Tomato Soup With Garden Vegetables"
+  },
+  {
+    "id": "chicken-noodle-soup@dinner@the-fresh-food-co-at-warren-towers",
+    "name": "Chicken Noodle Soup",
+    "hall": "The Fresh Food Co. at Warren Towers",
+    "mealType": "dinner",
+    "calories": 0,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 0,
+    "dietaryRestrictions": [],
+    "description": "Chicken Noodle Soup"
+  },
+  {
+    "id": "classic-cheese-pizza@dinner@the-fresh-food-co-at-warren-towers",
+    "name": "Classic Cheese Pizza",
+    "hall": "The Fresh Food Co. at Warren Towers",
+    "mealType": "dinner",
+    "calories": 250,
+    "protein": 12,
+    "carbs": 34,
+    "fat": 4,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Halal"
+    ],
+    "description": "Classic Cheese Pizza",
+    "ingredients": "Shredded Mozzarella Cheese (whole and part-skim milk low moisture mozzarella cheese [pasteurized and cultured milk, cheese cultures, salt, enzymes], provolone cheese [pasteurized milk, cheese cultures, salt, and enzymes], potato starch, canola oil and cellulose powder added to prevent caking, natamycin [a natural mold inhibitor]), Pizza Sauce (tomatoes, tomato puree, salt, sugar, extra virgin olive oil, spices, dehydrated basil and garlic powder), 14\" Pizza Dough Sheet (enriched unbleached wheat flour [wheat flour, niacin, iron as ferrous sulfate, thiamine mononitrate, enzyme, riboflavin, folic acid], water, yeast, soybean oil, contains less than 2% of the following: high fructose corn syrup, salt, wheat gluten, sodium stearoyl lactylate, ascorbic acid, enzymes)"
+  },
+  {
+    "id": "pepperoni-pizza@dinner@the-fresh-food-co-at-warren-towers",
+    "name": "Pepperoni Pizza",
+    "hall": "The Fresh Food Co. at Warren Towers",
+    "mealType": "dinner",
+    "calories": 275,
+    "protein": 13,
+    "carbs": 34,
+    "fat": 4,
+    "dietaryRestrictions": [
+      "Halal"
+    ],
+    "description": "Pepperoni Pizza",
+    "ingredients": "Shredded Mozzarella Cheese (whole and part-skim milk low moisture mozzarella cheese [pasteurized and cultured milk, cheese cultures, salt, enzymes], provolone cheese [pasteurized milk, cheese cultures, salt, and enzymes], potato starch, canola oil and cellulose powder added to prevent caking, natamycin [a natural mold inhibitor]), Pizza Sauce (tomatoes, tomato puree, salt, sugar, extra virgin olive oil, spices, dehydrated basil and garlic powder), 14\" Pizza Dough Sheet (enriched unbleached wheat flour [wheat flour, niacin, iron as ferrous sulfate, thiamine mononitrate, enzyme, riboflavin, folic acid], water, yeast, soybean oil, contains less than 2% of the following: high fructose corn syrup, salt, wheat gluten, sodium stearoyl lactylate, ascorbic acid, enzymes), Sliced Pepperoni (chicken, beef, halal beef, turkey, salt, water, corn syrup, dextrose, spices, smoke flavoring, natural smoke flavor, garlic powder, dehydrated garlic, oleoresin of paprika, paprika, extractive of paprika, rosemary extract, sodium ascorbate, sodium erythrobate, spice extractive, citric acid, lactic acid starter culture, bha, bht, sodium nitrite, bha, bht with citric acid added to help protect flavor)"
+  },
+  {
+    "id": "create-your-own-sandwich-station@dinner@the-fresh-food-co-at-warren-towers",
+    "name": "Create Your Own Sandwich Station",
+    "hall": "The Fresh Food Co. at Warren Towers",
+    "mealType": "dinner",
+    "calories": 265,
+    "protein": 13,
+    "carbs": 19,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Halal",
+      "Coolfood"
+    ],
+    "description": "Create Your Own Sandwich Station",
+    "ingredients": "Top Round Beef, Mayonnaise (soybean oil, distilled vinegar, egg yolk, high fructose corn syrup, contains less than 2% of salt, water, mustard seed, calcium sodium edta [to protect flavor]), Montreal Steak Seasoning (coarse salt, spices [including black pepper and red pepper], garlic, onion, sunflower oil, natural flavor and extractives of paprika), Chinese Five Spice (anise, cinnamon, star anise, cloves, ginger and sulfiting agents), 10\" Flour Tortilla (enriched bleached flour [flour, niacin, reduced iron, thiamine mononitrate, riboflavin, folic acid], water, vegetable shortening [interesterified and hydrogenated soybean oils], contains 2% or less of: salt, baking soda, sodium acid pyrophosphate, distilled monoglycerides, enzymes, cellulose gum, fumaric acid, and calcium propionate and sorbic acid [to maintain freshness])"
+  },
+  {
+    "id": "herb-roasted-pork-loin@dinner@the-fresh-food-co-at-warren-towers",
+    "name": "Herb Roasted Pork Loin",
+    "hall": "The Fresh Food Co. at Warren Towers",
+    "mealType": "dinner",
+    "calories": 185,
+    "protein": 27,
+    "carbs": 1,
+    "fat": 2,
+    "dietaryRestrictions": [
+      "Gluten-Free"
+    ],
+    "description": "Herb Roasted Pork Loin",
+    "ingredients": "Boneless Pork Loin, Onion Powder, Ground Mustard, Coarse Flaked Kosher Salt (salt, yellow prussiate of soda [yps]), Granulated Garlic (garlic powder), Ground Black Pepper, Whole Thyme Leaves, Dried Sage"
+  },
+  {
+    "id": "mashed-sweet-potatoes@dinner@the-fresh-food-co-at-warren-towers",
+    "name": "Mashed Sweet Potatoes",
+    "hall": "The Fresh Food Co. at Warren Towers",
+    "mealType": "dinner",
+    "calories": 115,
+    "protein": 2,
+    "carbs": 20,
+    "fat": 2,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Gluten-Free",
+      "Halal"
+    ],
+    "description": "Mashed Sweet Potatoes",
+    "ingredients": "Sweet Potato, Whole Milk (milk and vitamin d3), Unsalted Butter (pasteurized cream (milk), natural flavorings), Coarse Flaked Kosher Salt (salt, yellow prussiate of soda [yps]), Ground Black Pepper"
+  },
+  {
+    "id": "roasted-brussels-sprouts-with-garlic@dinner@the-fresh-food-co-at-warren-towers",
+    "name": "Roasted Brussels Sprouts With Garlic",
+    "hall": "The Fresh Food Co. at Warren Towers",
+    "mealType": "dinner",
+    "calories": 55,
+    "protein": 3,
+    "carbs": 9,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Gluten-Free",
+      "Halal"
+    ],
+    "description": "Roasted Brussels Sprouts With Garlic",
+    "ingredients": "Fresh Brussels Sprouts, Fresh Garlic, Oil Blend (vegetable oil [may contain one or more of the following: 90% soybean and/or canola and/or corn oil, and/or sunflower oil], 10% olive [pomace] oil, beta-carotene), Shredded Asiago Cheese (asiago cheese [cultured pasteurized milk, salt, enzymes], cheese cultures, anti-caking blend [potato starch, powdered cellulose]), Coarse Flaked Kosher Salt (salt, yellow prussiate of soda [yps]), Crushed Red Pepper Flakes"
+  },
+  {
+    "id": "sargent-choice-butternut-squash-soup@dinner@the-fresh-food-co-at-warren-towers",
+    "name": "Sargent Choice Butternut Squash Soup",
+    "hall": "The Fresh Food Co. at Warren Towers",
+    "mealType": "dinner",
+    "calories": 40,
+    "protein": 1,
+    "carbs": 6,
+    "fat": 1,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten-Free"
+    ],
+    "description": "Sargent Choice Butternut Squash Soup",
+    "ingredients": "Water, Fresh Butternut Squash, Fresh Yellow Onion, Fresh Celery, Fresh Carrot, Smart Balance Margarine (oil blend [palm, soybean, canola, and olive oil], water, contains less than 2% of salt, enzyme-modified soybean lecithin, natural & artificial flavor, potassium sorbate and calcium disodium edta [to preserve freshness], lactic acid, vitamin a palmitate, beta-carotene color), Fresh Gingerroot, Low-Sodium Gluten-Free Vegetable Base ((sauteed vegetable puree mix [onion, carrot, celery, soybean oil], salt, sugar, maltodextrin, vegetable oil [corn and/or canola oil], yeast extract, carrot powder, potatoes, garlic powder, onion powder, corn oil, natural flavor [contains carrot, celery, and canola oil], cabbage, beet powder, oleoresin paprika, citric acid, 2% or less of water, potato starch, xanthan gum, carrot juice concentrate) ), Coarse Flaked Kosher Salt (salt, yellow prussiate of soda [yps]), Cayenne Pepper (red pepper), Ground Nutmeg, Ground Black Pepper"
+  },
+  {
+    "id": "crispy-chicken@dinner@the-fresh-food-co-at-warren-towers",
+    "name": "Crispy Chicken",
+    "hall": "The Fresh Food Co. at Warren Towers",
+    "mealType": "dinner",
+    "calories": 260,
+    "protein": 19,
+    "carbs": 15,
+    "fat": 2,
+    "dietaryRestrictions": [],
+    "description": "Crispy Chicken",
+    "ingredients": "Breaded Homestyle Chicken Patty (boneless, skinless chicken breast with rib meat, water, seasoning [maltodextrin, salt, sugar, flavors, vegetable stock [carrot, onion, celery], carrot powder, garlic powder], sodium phosphates, salt, modified food starch. breaded with: wheat flour, water, salt, contains 2% or less of the following: dextrose, disodium inosinate and disodium guanylate, extractives of paprika and turmeric, garlic powder, leavening [sodium bicarbonate, sodium acid pyrophosphate, sodium aluminum phosphate, monocalcium phosphate], leavening [sodium bicarbonate, sodium aluminum phosphate, monocalcium phosphate], onion powder, spices, wheat gluten. breading set in vegetable oil)"
+  },
+  {
+    "id": "cluck-chicken-tenders@dinner@the-fresh-food-co-at-warren-towers",
+    "name": "Cluck Chicken Tenders",
+    "hall": "The Fresh Food Co. at Warren Towers",
+    "mealType": "dinner",
+    "calories": 270,
+    "protein": 24,
+    "carbs": 21,
+    "fat": 2,
+    "dietaryRestrictions": [],
+    "description": "Cluck Chicken Tenders",
+    "ingredients": "Crispy Chicken Tenders (portioned chicken tenders with rib meat, water, seasoning [maltodextrin, salt, sugar, flavors, vegetable stock [carrot, onion, celery], carrot powder and garlic powder], sodium phosphates, salt, modified food starch. breaded with: wheat flour, water, bleached wheat flour, salt, wheat gluten, sugar, leavening [sodium bicarbonate, sodium aluminum phosphate, sodium acid pyrophosphate, monocalcium phosphate], yeast extract, yellow corn flour, onion powder, dextrose, garlic powder, yeast, spice, extractives of paprika, annatto, and turmeric, disodium inosinate and disodium guanylate. breading set in vegetable oil)"
+  },
+  {
+    "id": "black-strap-bbq-sauce@dinner@the-fresh-food-co-at-warren-towers",
+    "name": "Black Strap Bbq Sauce",
+    "hall": "The Fresh Food Co. at Warren Towers",
+    "mealType": "dinner",
+    "calories": 135,
+    "protein": 0,
+    "carbs": 33,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan"
+    ],
+    "description": "Black Strap Bbq Sauce",
+    "ingredients": "Molasses, Apple Cider Vinegar (apple cider vinegar, distilled vinegar from grain, natural flavor with caramel color, diluted with water to a uniform pickling and table strength of 5% [50 grains] acidity), Light Brown Sugar (brown sugar [when produced at chalmette or crockett facilities] sugar, molasses [when produced at south bay facility]), Red Hot Cayenne Pepper Sauce (aged cayenne red peppers, distilled vinegar, water, salt & garlic powder)"
+  },
+  {
+    "id": "spicy-oil@dinner@the-fresh-food-co-at-warren-towers",
+    "name": "Spicy Oil",
+    "hall": "The Fresh Food Co. at Warren Towers",
+    "mealType": "dinner",
+    "calories": 205,
+    "protein": 0,
+    "carbs": 6,
+    "fat": 2,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Halal"
+    ],
+    "description": "Spicy Oil",
+    "ingredients": "Oil Blend (vegetable oil [may contain one or more of the following: 90% soybean and/or canola and/or corn oil, and/or sunflower oil], 10% olive [pomace] oil, beta-carotene), Light Brown Sugar (brown sugar [when produced at chalmette or crockett facilities] sugar, molasses [when produced at south bay facility]), Cayenne Pepper (red pepper), Granulated Garlic (garlic powder)"
+  },
+  {
+    "id": "coleslaw-dressing@dinner@the-fresh-food-co-at-warren-towers",
+    "name": "Coleslaw Dressing",
+    "hall": "The Fresh Food Co. at Warren Towers",
+    "mealType": "dinner",
+    "calories": 125,
+    "protein": 0,
+    "carbs": 7,
+    "fat": 2,
+    "dietaryRestrictions": [
+      "Vegetarian"
+    ],
+    "description": "Coleslaw Dressing",
+    "ingredients": "Coleslaw Dressing (soybean oil, sugar, water, apple cider vinegar, distilled vinegar, egg yolk, salt, contains less than 2% of mustard flour, polysorbate 60, xanthan gum, natural flavor, calcium disodium edta [to protect flavor])"
+  },
+  {
+    "id": "dill-pickle-slices@dinner@the-fresh-food-co-at-warren-towers",
+    "name": "Dill Pickle Slices",
+    "hall": "The Fresh Food Co. at Warren Towers",
+    "mealType": "dinner",
+    "calories": 5,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan"
+    ],
+    "description": "Dill Pickle Slices",
+    "ingredients": "Sliced Kosher Dill Pickles (fresh cucumbers, water, salt, distilled vinegar, contains less than 2% of dried garlic, calcium chloride, spice, sodium benzoate (to preserve flavor), mustard seed, dried red peppers, natural flavor, polysorbate 80, oleoresin turmeric)"
+  },
+  {
+    "id": "buffalo-sauce@dinner@the-fresh-food-co-at-warren-towers",
+    "name": "Buffalo Sauce",
+    "hall": "The Fresh Food Co. at Warren Towers",
+    "mealType": "dinner",
+    "calories": 10,
+    "protein": 0,
+    "carbs": 1,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan"
+    ],
+    "description": "Buffalo Sauce",
+    "ingredients": "Buffalo Wing Sauce (distilled vinegar, aged cayenne red peppers, salt, water, canola oil, paprika, xanthan gum [thickener], garlic powder & natural flavor.)"
+  },
+  {
+    "id": "light-ranch-dressing@dinner@the-fresh-food-co-at-warren-towers",
+    "name": "Light Ranch Dressing",
+    "hall": "The Fresh Food Co. at Warren Towers",
+    "mealType": "dinner",
+    "calories": 80,
+    "protein": 1,
+    "carbs": 2,
+    "fat": 1,
+    "dietaryRestrictions": [
+      "Vegetarian"
+    ],
+    "description": "Light Ranch Dressing",
+    "ingredients": "Lite Ranch Dressing (cultured buttermilk, water, vegetable oil [soybean and/or canola], distilled vinegar, egg yolk, contains less than 2% of salt, corn starch, sugar, disodium inosinate and disodium guanylate, nonfat milk powder, onion, * xanthan gum, nonfat milk solids, sorbic acid [preservative], lactic acid, spice, cream, garlic, * whey, vinegar powder, mustard flour, guar gum, sour cream powder, milk, dipotassium phosphate, natural flavor, citric acid. *dried. CONTAINS EGG, MILK)"
+  },
+  {
+    "id": "cheese-sauce@dinner@the-fresh-food-co-at-warren-towers",
+    "name": "Cheese Sauce",
+    "hall": "The Fresh Food Co. at Warren Towers",
+    "mealType": "dinner",
+    "calories": 40,
+    "protein": 0,
+    "carbs": 3,
+    "fat": 1,
+    "dietaryRestrictions": [],
+    "description": "Cheese Sauce",
+    "ingredients": "Cheddar Cheese Sauce (water, soybean oil, aged cheddar cheese [cultured milk, salt, enzymes], modified cornstarch, maltodextrin, 2% or less of cornstarch, salt, vinegar, natural flavors, sodium phosphate, yeast extract, datem, mono and diglycerides, extractives of turmeric, extractives of paprika, lactic acid)"
+  },
+  {
+    "id": "martin-s-potato-roll@dinner@the-fresh-food-co-at-warren-towers",
+    "name": "Martin's® Potato Roll",
+    "hall": "The Fresh Food Co. at Warren Towers",
+    "mealType": "dinner",
+    "calories": 150,
+    "protein": 7,
+    "carbs": 25,
+    "fat": 1,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Halal"
+    ],
+    "description": "Martin's® Potato Roll",
+    "ingredients": "Brioche Slider Roll (unbleached, unbromated enriched wheat flour [malted barley flour, niacin, reduced iron, thiamine mononitrate, riboflavin and folic acid], water, yeast, malted barley flour, sugar, contains 2% or less of the following: salt, soybean oil, wheat gluten, sodium alginate, corn starch, annatto extract & turmeric extract, calcium propionate, ascorbic acid, canola oil, sunflower lecithin, wheat protein isolate, enzymes, vegetable proteins, vegetable oil, dextrose, maltodextrins, natural flavors [SESAME SEEDS USED INSIDE BAKERY])"
+  },
+  {
+    "id": "crispy-waffle-fries@dinner@the-fresh-food-co-at-warren-towers",
+    "name": "Crispy Waffle Fries",
+    "hall": "The Fresh Food Co. at Warren Towers",
+    "mealType": "dinner",
+    "calories": 165,
+    "protein": 2,
+    "carbs": 19,
+    "fat": 1,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Halal"
+    ],
+    "description": "Crispy Waffle Fries",
+    "ingredients": "Spicy Waffle Fries (potatoes, vegetable oil [contains one or more of the following oils: canola, soybean, cottonseed, sunflower, corn], bleached enriched wheat flour [flour, niacin, reduced iron, thiamine mononitrate, riboflavin, folic acid]. contains 2% or less of caramel color, cocoa powder [processed with alkali], degermed yellow corn meal, dextrin, dextrose, garlic powder, leavening [sodium acid pyrophosphate, sodium bicarbonate], natural garlic flavor, onion powder, paprika extract [color], rice flour, salt, sodium acid pyrophosphate added to maintain color, spices, tapioca starch, tapioca starch - modified, xanthan gum)"
+  },
+  {
+    "id": "create-your-own-stir-fry-station@dinner@the-fresh-food-co-at-warren-towers",
+    "name": "Create Your Own Stir Fry Station",
+    "hall": "The Fresh Food Co. at Warren Towers",
+    "mealType": "dinner",
+    "calories": 145,
+    "protein": 26,
+    "carbs": 0,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Halal"
+    ],
+    "description": "Create Your Own Stir Fry Station",
+    "ingredients": "Halal Chicken Breast (boneless skinless chicken breasts with rib meat), Bottled Lemon Juice (filtered water, lemon juice concentrate, sodium bisulfite [preservative], sodium benzoate [preservative], lemon oil), Oil Blend (vegetable oil [may contain one or more of the following: 90% soybean and/or canola and/or corn oil, and/or sunflower oil], 10% olive [pomace] oil, beta-carotene), Fresh Garlic, Coarse Flaked Kosher Salt (salt, yellow prussiate of soda [yps]), Dried Oregano, Ground Black Pepper"
+  },
+  {
+    "id": "create-your-own@dinner@the-fresh-food-co-at-warren-towers",
+    "name": "Create Your Own",
+    "hall": "The Fresh Food Co. at Warren Towers",
+    "mealType": "dinner",
+    "calories": 245,
+    "protein": 5,
+    "carbs": 28,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Halal"
+    ],
+    "description": "Create Your Own",
+    "ingredients": "Water, Bulgur Wheat, Water, Quinoa, Bottled Lemon Juice (filtered water, lemon juice concentrate, sodium bisulfite [preservative], sodium benzoate [preservative], lemon oil), Extra Virgin Olive Oil, Fresh Kale, Fresh Parsley, Coarse Flaked Kosher Salt (salt, yellow prussiate of soda [yps]), Ground Black Pepper"
+  },
+  {
+    "id": "bbq-pulled-oats-sandwich@dinner@the-fresh-food-co-at-warren-towers",
+    "name": "Bbq Pulled Oats Sandwich",
+    "hall": "The Fresh Food Co. at Warren Towers",
+    "mealType": "dinner",
+    "calories": 445,
+    "protein": 26,
+    "carbs": 55,
+    "fat": 2,
+    "dietaryRestrictions": [],
+    "description": "Bbq Pulled Oats Sandwich",
+    "ingredients": "\"VEGAN PLANT BASED PROTEIN PULLED FZ - THAWED\" (ingredient details unavailable at this time), Coarse Flaked Kosher Salt (salt, yellow prussiate of soda [yps]), BBQ Sauce (high fructose corn syrup, distilled vinegar, tomato paste, modified corn starch, contains less than 2% of salt, pineapple juice concentrate, natural smoke flavor, spice, caramel color, molasses, sodium benzoate [preservative], garlic, * mustard flour, corn syrup, sugar, tamarind, natural flavor, celery seed. *dried), Granulated Sugar, Ground Paprika (paprika and silicon dioxide [added to make free flowing]), Fresh Cabbage, Dark Chili Powder (chili pepper, spices, salt, silicon dioxide [to make free flowing] and garlic), Oil Blend (vegetable oil [may contain one or more of the following: 90% soybean and/or canola and/or corn oil, and/or sunflower oil], 10% olive [pomace] oil, beta-carotene), Vegan Mayonnaise (soybean oil, water, sugar, distilled vinegar, salt, contains 2% or less of each of the following: modified food starch [corn, potato], lemon juice concentrate, natural flavor, calcium disodium edta [used to protect quality], paprika oleoresin), Garlic Powder ([garlic]), Ground Black Pepper, White Vinegar (distilled white vinegar diluted with water to 5% [50 grains] acidity), Fresh Carrot, Cayenne Pepper (red pepper), Celery Seed, Whole Grain Hamburger Bun (stone ground whole white wheat flour unbleached, unbromated enriched wheat flour [malted barley flour, niacin, reduced iron, thiamine mononitrate, riboflavin and folic acid], water, yeast, brown sugar, contains 2% or less of the following: salt, soybean oil, wheat gluten, calcium propionate, ascorbic acid, guar gum, enzymes, monoglyerides [SESAME SEEDS USED INSIDE BAKERY])"
+  },
+  {
+    "id": "brown-rice@dinner@the-fresh-food-co-at-warren-towers",
+    "name": "Brown Rice",
+    "hall": "The Fresh Food Co. at Warren Towers",
+    "mealType": "dinner",
+    "calories": 105,
+    "protein": 2,
+    "carbs": 22,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Halal"
+    ],
+    "description": "Brown Rice",
+    "ingredients": "Water, Whole Grain Brown Rice ((long grain parboiled brown rice) )"
+  },
+  {
+    "id": "chicken-shawarma@dinner@the-fresh-food-co-at-warren-towers",
+    "name": "Chicken Shawarma",
+    "hall": "The Fresh Food Co. at Warren Towers",
+    "mealType": "dinner",
+    "calories": 125,
+    "protein": 17,
+    "carbs": 1,
+    "fat": 1,
+    "dietaryRestrictions": [
+      "Halal"
+    ],
+    "description": "Chicken Shawarma",
+    "ingredients": "Halal Chicken Thigh ((boneless skinless thigh meat) ), Bottled Lemon Juice (filtered water, lemon juice concentrate, sodium bisulfite [preservative], sodium benzoate [preservative], lemon oil), Oil Blend (vegetable oil [may contain one or more of the following: 90% soybean and/or canola and/or corn oil, and/or sunflower oil], 10% olive [pomace] oil, beta-carotene), Ground Coriander, Coarse Flaked Kosher Salt (salt, yellow prussiate of soda [yps]), Ground Cumin, Ground Allspice, Ground Cinnamon, Ground Paprika (paprika and silicon dioxide [added to make free flowing]), Ground Ginger (ginger, and sulfur dioxide [added to retain color]), Ground Turmeric, Ground Black Pepper, Cayenne Pepper (red pepper)"
+  },
+  {
+    "id": "sliced-tomatoes@dinner@the-fresh-food-co-at-warren-towers",
+    "name": "Sliced Tomatoes",
+    "hall": "The Fresh Food Co. at Warren Towers",
+    "mealType": "dinner",
+    "calories": 20,
+    "protein": 1,
+    "carbs": 4,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Halal"
+    ],
+    "description": "Sliced Tomatoes",
+    "ingredients": "Fresh Tomatoes"
+  },
+  {
+    "id": "diced-red-onions@dinner@the-fresh-food-co-at-warren-towers",
+    "name": "Diced Red Onions",
+    "hall": "The Fresh Food Co. at Warren Towers",
+    "mealType": "dinner",
+    "calories": 85,
+    "protein": 2,
+    "carbs": 13,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Halal"
+    ],
+    "description": "Diced Red Onions",
+    "ingredients": "Fresh Red Onion, Oil Blend (vegetable oil [may contain one or more of the following: 90% soybean and/or canola and/or corn oil, and/or sunflower oil], 10% olive [pomace] oil, beta-carotene), Montreal Steak Seasoning (coarse salt, spices [including black pepper and red pepper], garlic, onion, sunflower oil, natural flavor and extractives of paprika)"
+  },
+  {
+    "id": "romaine-lettuce@dinner@the-fresh-food-co-at-warren-towers",
+    "name": "Romaine Lettuce",
+    "hall": "The Fresh Food Co. at Warren Towers",
+    "mealType": "dinner",
+    "calories": 20,
+    "protein": 1,
+    "carbs": 4,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Halal"
+    ],
+    "description": "Romaine Lettuce",
+    "ingredients": "Fresh Lettuce"
+  },
+  {
+    "id": "diced-cucumber@dinner@the-fresh-food-co-at-warren-towers",
+    "name": "Diced Cucumber",
+    "hall": "The Fresh Food Co. at Warren Towers",
+    "mealType": "dinner",
+    "calories": 15,
+    "protein": 1,
+    "carbs": 4,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Halal"
+    ],
+    "description": "Diced Cucumber",
+    "ingredients": "Fresh Cucumber"
+  },
+  {
+    "id": "harissa@dinner@the-fresh-food-co-at-warren-towers",
+    "name": "Harissa",
+    "hall": "The Fresh Food Co. at Warren Towers",
+    "mealType": "dinner",
+    "calories": 50,
+    "protein": 1,
+    "carbs": 9,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan"
+    ],
+    "description": "Harissa",
+    "ingredients": "Fresh Bell Pepper, Fresh Tomatoes, Fresh Yellow Onion, Fresh Garlic, Bottled Lemon Juice (filtered water, lemon juice concentrate, sodium bisulfite [preservative], sodium benzoate [preservative], lemon oil), Chipotle Pepper Flavor Concentrate (red bell pepper puree [red peppers, water, salt, citric acid], maltodextrin, vegetable oil [corn and/or canola oil], onions, chipotle powder, salt, sugar, olive oil, jalapeno peppers, spices, carrot, celery, onion powder, vinegar, modified cornstarch, 2% or less of palm oil, garlic, yeast extract, natural smoke flavor, citric acid, natural), Coarse Flaked Kosher Salt (salt, yellow prussiate of soda [yps]), Oil Blend (vegetable oil [may contain one or more of the following: 90% soybean and/or canola and/or corn oil, and/or sunflower oil], 10% olive [pomace] oil, beta-carotene), Ground Cumin, Ground Coriander, Ground Paprika (paprika and silicon dioxide [added to make free flowing]), Ground Black Pepper"
+  },
+  {
+    "id": "hummus@dinner@the-fresh-food-co-at-warren-towers",
+    "name": "Hummus",
+    "hall": "The Fresh Food Co. at Warren Towers",
+    "mealType": "dinner",
+    "calories": 245,
+    "protein": 6,
+    "carbs": 14,
+    "fat": 2,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Halal"
+    ],
+    "description": "Hummus",
+    "ingredients": "Low Sodium Garbanzo Beans (prepared chick peas, water, salt, calcium chloride [firming agent], disodium edta [promotes color retention]), Bottled Lemon Juice (filtered water, lemon juice concentrate, sodium bisulfite [preservative], sodium benzoate [preservative], lemon oil), 100% Pure Tahini (sesame seeds), Oil Blend (vegetable oil [may contain one or more of the following: 90% soybean and/or canola and/or corn oil, and/or sunflower oil], 10% olive [pomace] oil, beta-carotene), Fresh Garlic, Coarse Flaked Kosher Salt (salt, yellow prussiate of soda [yps])"
+  },
+  {
+    "id": "assorted-cookies@dinner@the-fresh-food-co-at-warren-towers",
+    "name": "Assorted Cookies",
+    "hall": "The Fresh Food Co. at Warren Towers",
+    "mealType": "dinner",
+    "calories": 95,
+    "protein": 1,
+    "carbs": 14,
+    "fat": 2,
+    "dietaryRestrictions": [],
+    "description": "Assorted Cookies",
+    "ingredients": "Granulated Sugar, Ground Cinnamon, Oatmeal Raisin Cookies (sugar, enriched wheat flour [wheat flour, malted barley flour, niacin, iron, thiamine mononitrate, riboflavin, folic acid], margarine [vegetable oil blend [palm oil, soybean oil, olive oil], water, salt, non-fat dry milk, soy lecithin, monoglycerides, diglycerides, natural flavor [contains milk], citric acid, vitamin a palmitate, beta carotene [color]], oats, raisins [raisins, sunflower oil], eggs, molasses, dextrose, water, pregelatinized wheat starch, baking soda, salt, cinnamon, defatted soy flour, artificial vanilla flavor, brown sugar, rolled oats. CONTAINS: EGGS, MILK, SOY, WHEAT), Sugar Cookies ((enriched flour [bleached wheat flour, malted barley flour, niacin, iron, thiamine mononitrate, riboflavin, folic acid], sugar, vegetable oil blend [soybean, palm & olive oils, water, salt, milk, mono & diglycerides, soy lecithin, sodium benzoate, natural & artificial flavors, vitamin a palmitate, beta carotene for color], vegetable shortening [partially hydrogenated soybean & cottonseed oils], pasteurized whole eggs, margarine [partially hydrogenated soybean oil, water, salt, milk powder, soy lecithin, mono & diglycerides, potassium sorbate, beta carotene for color, artificial flavor, vitamin a palmitate], margarine [palm oil, water, soybean oil, contains 2% or less of: salt, mono- and diglycerides, natural flavor [contains milk], citric acid, vitamin a palmitate added, beta carotene [color]], eggs, butter [cream [milk], salt], contains 2% or less of: invert sugar, baking soda, defatted soy flour, natural & artificial butter flavor, salt, soy lecithin CONTAINS: EGGS, MILK, SOY, WHEAT. MAY CONTAIN: PEANUTS, SESAME SEEDS, TREE NUTS).), Chocolate Chip Cookies ((enriched flour [unbleached or bleached wheat flour, malted barley flour, niacin, iron, thiamine mononitrate, riboflavin, folic acid], chocolate chips [sugar, cocoa butter, chocolate liquor, vanilla, soy lecithin, unsweetened chocolate, dextrose, natural flavor, milk], chocolate flavored chips [sugar, fractionated interesterified vegetable fat [palm kernel and/or palm oils], cocoa powder [processed with alkali], dextrose, soy lecithin, polysorbate 60, sorbitan monostearate, natural flavor, salt, vanilla extract, milk], vegetable oil blend [soybean, palm & olive oils, water, salt, mono & diglycerides, soy lecithin, potassium sorbate [preservative], natural & artificial flavors, vitamin A palmitate, beta carotene for color], palm oil, margarine [palm oil, water, soybean oil, contains 2% or less of: salt, mono- and diglycerides, natural flavor [contains milk], citric acid, vitamin A palmitate added, beta carotene [color]], brown sugar, sugar, pasteurized whole eggs, eggs, water, dextrose, molasses, pregelatinized wheat starch, butter [cream [milk], salt], baking soda, salt, natural and artificial flavor, all natural vanilla flavor CONTAINS: EGGS, MILK, SOY, WHEAT). ), \"DO NOT USE - DOUGH COOKIE VALUE CARNIVAL 1 OZ FZ\" (ingredient details unavailable at this time)"
+  },
+  {
+    "id": "vanilla-cupcake@dinner@the-fresh-food-co-at-warren-towers",
+    "name": "Vanilla Cupcake",
+    "hall": "The Fresh Food Co. at Warren Towers",
+    "mealType": "dinner",
+    "calories": 730,
+    "protein": 6,
+    "carbs": 121,
+    "fat": 14,
+    "dietaryRestrictions": [
+      "Vegetarian"
+    ],
+    "description": "Vanilla Cupcake",
+    "ingredients": "Yellow Cake Mix (enriched bleached flour [wheat flour, niacin, reduced iron, thiamin mononitrate, riboflavin, folic acid, malted barley flour], sugar, palm and soybean oil, dextrose, less than 2% of: leavening [sodium aluminum phosphate, aluminum sulfate, baking soda], corn syrup solids, egg with sodium silicoaluminate, egg whites, food starch-modified, monocalcium phosphate, mono and diglycerides, modified whey, natural and artificial flavors [contains milk derivatives], nonfat milk, polyglycerol esters of fatty acids and mono-diglycerides, modified corn starch, polysorbate 60, propylene glycol mono and diesters of fatty acids, salt, sodium aluminum phosphate, sodium stearoyl lactylate, soy lecithin, annatto and turmeric extract color, yellow 5, yellow 5 lake, yellow 6, yellow 6 lake, xanthan gum, defatted soy flour), Vanilla Icing (sugar, palm oil, water, corn syrup, corn starch. contains 2% or less of: salt, monoglycerides, yellows 5 & 6 and other color added, polysorbate 60, potassium sorbate [preservative], natural and artificial flavor, sodium stearoyl lactylate, sodium acid pyrophosphate, citric acid), Water, Mini M&Ms (milk chocolate [sugar, chocolate, skim milk, cocoa butter, lactose, milkfat, soy lecithin, salt, natural flavor], sugar, less than 2% of: colors (includes blue 1 lake, red 40, yellow 6, yellow 5, blue 1, red 40 lake, yellow 6 lake, yellow 5 lake, blue 2 lake, blue 2), corn syrup, dextrin, cornstarch, carnauba wax [MAY CONTAIN PEANUTS]), Small Oreo Cookie Crumbles (unbleached enriched flour [wheat flour, niacin, reduced iron, thiamine mononitrate [vitamin b1], riboflavin [vitamin b2], folic acid], sugar, palm oil, soybean and/or canola oil, cocoa [processed with alkali], invert sugar, leavening [baking soda and/or calcium phosphate], soy lecithin, salt, chocolate, natural flavor), Baking Semi-Sweet Chocolate Chips (sugar, chocolate liquor, cocoa butter, milkfat, soy lecithin, natural flavor), Gluten Free Whole-Grain Oats (gluten free oats), Pure Maple Syrup (100% pure grade \"a\" dark robust taste maple syrup), Water, Oil Blend (vegetable oil [may contain one or more of the following: 90% soybean and/or canola and/or corn oil, and/or sunflower oil], 10% olive [pomace] oil, beta-carotene), Pure Clover Honey, Rainbow Sprinkles (sugar, corn starch, palm oil & palm kernel oil, dextrin, soy lecithin, confectioners glaze, carnauba wax, fd&c yellow #5 lake, fd&c yellow #6 lake, fd&c blue #1 lake, fd&c red#40 lake, fd&c red#3), Sweetened Dried Cranberries (cranberries, sugar, sunflower oil), Dark Seedless Raisins, Whole-Wheat Stone-Ground Flour, Imitation Vanilla Extract (water, vanillin, caramel color, ethyl vanillin and 0.1% potassium sorbate [added as a preservative]), Ground Cinnamon"
+  },
+  {
+    "id": "honey-cake@dinner@the-fresh-food-co-at-warren-towers",
+    "name": "Honey Cake",
+    "hall": "The Fresh Food Co. at Warren Towers",
+    "mealType": "dinner",
+    "calories": 120,
+    "protein": 1,
+    "carbs": 22,
+    "fat": 2,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Halal"
+    ],
+    "description": "Honey Cake",
+    "ingredients": "Yellow Cake Mix (enriched bleached flour [wheat flour, niacin, reduced iron, thiamin mononitrate, riboflavin, folic acid, malted barley flour], sugar, palm and soybean oil, dextrose, less than 2% of: leavening [sodium aluminum phosphate, aluminum sulfate, baking soda], corn syrup solids, egg with sodium silicoaluminate, egg whites, food starch-modified, monocalcium phosphate, mono and diglycerides, modified whey, natural and artificial flavors [contains milk derivatives], nonfat milk, polyglycerol esters of fatty acids and mono-diglycerides, modified corn starch, polysorbate 60, propylene glycol mono and diesters of fatty acids, salt, sodium aluminum phosphate, sodium stearoyl lactylate, soy lecithin, annatto and turmeric extract color, yellow 5, yellow 5 lake, yellow 6, yellow 6 lake, xanthan gum, defatted soy flour)"
+  },
+  {
+    "id": "vegan-blueberry-cobbler@dinner@the-fresh-food-co-at-warren-towers",
+    "name": "Vegan Blueberry Cobbler",
+    "hall": "The Fresh Food Co. at Warren Towers",
+    "mealType": "dinner",
+    "calories": 215,
+    "protein": 3,
+    "carbs": 36,
+    "fat": 3,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan"
+    ],
+    "description": "Vegan Blueberry Cobbler",
+    "ingredients": "Original Soy Milk (organic soymilk [filtered water, organic soybeans], organic cane sugar, contains 2% or less of: vitamin & mineral blend [calcium carbonate, vitamin a palmitate, vitamin d2, riboflavin [b2], vitamin b12], sea salt, natural flavors, gellan gum. [PRODUCED IN A FACILITY THAT ALSO PROCESSES TREE NUTS]), All Purpose Flour (bleached wheat flour, malted barley flour, niacin, iron, thiamin mononitrate, riboflavin, folic acid), Light Brown Sugar (brown sugar [when produced at chalmette or crockett facilities] sugar, molasses [when produced at south bay facility]), Smart Balance Margarine (oil blend [palm, soybean, canola, and olive oil], water, contains less than 2% of salt, enzyme-modified soybean lecithin, natural & artificial flavor, potassium sorbate and calcium disodium edta [to preserve freshness], lactic acid, vitamin a palmitate, beta-carotene color), Granulated Sugar, Baking Powder (sodium bicarbonate, cornstarch, sodium aluminum sulfate, monocalcium phosphate, silicon dioxide), Imitation Vanilla Extract (water, vanillin, caramel color, ethyl vanillin and 0.1% potassium sorbate [added as a preservative]), Corn Starch, Granulated Iodized Salt (salt, sodium silicoaluminate, dextrose, potassium iodine and sodium bicarbonate), Ground Cinnamon, Frozen Blueberries"
+  }
+]

@@ -1,0 +1,606 @@
+[
+  {
+    "id": "caribbean-inspired-jerk-chicken-soup@lunch@the-fresh-food-co-at-marciano-commons",
+    "name": "Caribbean Inspired Jerk Chicken Soup",
+    "hall": "The Fresh Food Co. at Marciano Commons",
+    "mealType": "lunch",
+    "calories": 0,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 0,
+    "dietaryRestrictions": [],
+    "description": "Caribbean Inspired Jerk Chicken Soup"
+  },
+  {
+    "id": "tomato-basil-soup@lunch@the-fresh-food-co-at-marciano-commons",
+    "name": "Tomato Basil Soup",
+    "hall": "The Fresh Food Co. at Marciano Commons",
+    "mealType": "lunch",
+    "calories": 0,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 0,
+    "dietaryRestrictions": [],
+    "description": "Tomato Basil Soup"
+  },
+  {
+    "id": "caribbean-inspired-jerk-chicken-soup@dinner@the-fresh-food-co-at-marciano-commons",
+    "name": "Caribbean Inspired Jerk Chicken Soup",
+    "hall": "The Fresh Food Co. at Marciano Commons",
+    "mealType": "dinner",
+    "calories": 0,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 0,
+    "dietaryRestrictions": [],
+    "description": "Caribbean Inspired Jerk Chicken Soup"
+  },
+  {
+    "id": "tomato-basil-soup@dinner@the-fresh-food-co-at-marciano-commons",
+    "name": "Tomato Basil Soup",
+    "hall": "The Fresh Food Co. at Marciano Commons",
+    "mealType": "dinner",
+    "calories": 0,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 0,
+    "dietaryRestrictions": [],
+    "description": "Tomato Basil Soup"
+  },
+  {
+    "id": "classic-cheese-pizza@dinner@the-fresh-food-co-at-marciano-commons",
+    "name": "Classic Cheese Pizza",
+    "hall": "The Fresh Food Co. at Marciano Commons",
+    "mealType": "dinner",
+    "calories": 250,
+    "protein": 12,
+    "carbs": 34,
+    "fat": 4,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Halal"
+    ],
+    "description": "Classic Cheese Pizza",
+    "ingredients": "Shredded Mozzarella Cheese (whole and part-skim milk low moisture mozzarella cheese [pasteurized and cultured milk, cheese cultures, salt, enzymes], provolone cheese [pasteurized milk, cheese cultures, salt, and enzymes], potato starch, canola oil and cellulose powder added to prevent caking, natamycin [a natural mold inhibitor]), Pizza Sauce (tomatoes, tomato puree, salt, sugar, extra virgin olive oil, spices, dehydrated basil and garlic powder), 14\" Pizza Dough Sheet (enriched unbleached wheat flour [wheat flour, niacin, iron as ferrous sulfate, thiamine mononitrate, enzyme, riboflavin, folic acid], water, yeast, soybean oil, contains less than 2% of the following: high fructose corn syrup, salt, wheat gluten, sodium stearoyl lactylate, ascorbic acid, enzymes)"
+  },
+  {
+    "id": "pepperoni-pizza@dinner@the-fresh-food-co-at-marciano-commons",
+    "name": "Pepperoni Pizza",
+    "hall": "The Fresh Food Co. at Marciano Commons",
+    "mealType": "dinner",
+    "calories": 275,
+    "protein": 13,
+    "carbs": 34,
+    "fat": 4,
+    "dietaryRestrictions": [
+      "Halal"
+    ],
+    "description": "Pepperoni Pizza",
+    "ingredients": "Shredded Mozzarella Cheese (whole and part-skim milk low moisture mozzarella cheese [pasteurized and cultured milk, cheese cultures, salt, enzymes], provolone cheese [pasteurized milk, cheese cultures, salt, and enzymes], potato starch, canola oil and cellulose powder added to prevent caking, natamycin [a natural mold inhibitor]), Pizza Sauce (tomatoes, tomato puree, salt, sugar, extra virgin olive oil, spices, dehydrated basil and garlic powder), 14\" Pizza Dough Sheet (enriched unbleached wheat flour [wheat flour, niacin, iron as ferrous sulfate, thiamine mononitrate, enzyme, riboflavin, folic acid], water, yeast, soybean oil, contains less than 2% of the following: high fructose corn syrup, salt, wheat gluten, sodium stearoyl lactylate, ascorbic acid, enzymes), Sliced Pepperoni (chicken, beef, halal beef, turkey, salt, water, corn syrup, dextrose, spices, smoke flavoring, natural smoke flavor, garlic powder, dehydrated garlic, oleoresin of paprika, paprika, extractive of paprika, rosemary extract, sodium ascorbate, sodium erythrobate, spice extractive, citric acid, lactic acid starter culture, bha, bht, sodium nitrite, bha, bht with citric acid added to help protect flavor)"
+  },
+  {
+    "id": "bbq-chicken-caramelized-onion-pizza-sargent-choice@dinner@the-fresh-food-co-at-marciano-commons",
+    "name": "Bbq Chicken & Caramelized Onion Pizza (Sargent Choice)",
+    "hall": "The Fresh Food Co. at Marciano Commons",
+    "mealType": "dinner",
+    "calories": 330,
+    "protein": 19,
+    "carbs": 43,
+    "fat": 4,
+    "dietaryRestrictions": [],
+    "description": "Bbq Chicken & Caramelized Onion Pizza (Sargent Choice)",
+    "ingredients": "Halal Chicken Breast (boneless skinless chicken breasts with rib meat), Shredded Mozzarella Cheese (whole and part-skim milk low moisture mozzarella cheese [pasteurized and cultured milk, cheese cultures, salt, enzymes], provolone cheese [pasteurized milk, cheese cultures, salt, and enzymes], potato starch, canola oil and cellulose powder added to prevent caking, natamycin [a natural mold inhibitor]), Fresh Bell Pepper, Pizza Sauce (tomatoes, tomato puree, salt, sugar, extra virgin olive oil, spices, dehydrated basil and garlic powder), Fresh Yellow Onion, BBQ Sauce (high fructose corn syrup, distilled vinegar, tomato paste, modified corn starch, contains less than 2% of salt, pineapple juice concentrate, natural smoke flavor, spice, caramel color, molasses, sodium benzoate [preservative], garlic, * mustard flour, corn syrup, sugar, tamarind, natural flavor, celery seed. *dried), Oil Blend (vegetable oil [may contain one or more of the following: 90% soybean and/or canola and/or corn oil, and/or sunflower oil], 10% olive [pomace] oil, beta-carotene), Coarse Flaked Kosher Salt (salt, yellow prussiate of soda [yps]), Ground Black Pepper, 14\" Pizza Dough Sheet (enriched unbleached wheat flour [wheat flour, niacin, iron as ferrous sulfate, thiamine mononitrate, enzyme, riboflavin, folic acid], water, yeast, soybean oil, contains less than 2% of the following: high fructose corn syrup, salt, wheat gluten, sodium stearoyl lactylate, ascorbic acid, enzymes)"
+  },
+  {
+    "id": "vegan-vegetable-pizza@dinner@the-fresh-food-co-at-marciano-commons",
+    "name": "Vegan Vegetable Pizza",
+    "hall": "The Fresh Food Co. at Marciano Commons",
+    "mealType": "dinner",
+    "calories": 205,
+    "protein": 6,
+    "carbs": 33,
+    "fat": 1,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Halal"
+    ],
+    "description": "Vegan Vegetable Pizza",
+    "ingredients": "Sliced Black Olives (olives, water, salt, ferrous gluconate), Fresh Spinach, Fresh White Button Mushroom, Crushed Tomatoes (vine ripened tomatoes, tomato puree, sea salt and citric acid), Sundried Tomatoes (sun-dried tomato strips, glucose, salt, citric acid, sulfur dioxide [added for color retention and as a preservative], contains sulfites), Water, Oil Blend (vegetable oil [may contain one or more of the following: 90% soybean and/or canola and/or corn oil, and/or sunflower oil], 10% olive [pomace] oil, beta-carotene), Coarse Flaked Kosher Salt (salt, yellow prussiate of soda [yps]), Ground Black Pepper, Granulated Sugar, Granulated Garlic (garlic powder), Dried Oregano, 14\" Pizza Dough Sheet (enriched unbleached wheat flour [wheat flour, niacin, iron as ferrous sulfate, thiamine mononitrate, enzyme, riboflavin, folic acid], water, yeast, soybean oil, contains less than 2% of the following: high fructose corn syrup, salt, wheat gluten, sodium stearoyl lactylate, ascorbic acid, enzymes)"
+  },
+  {
+    "id": "pita-bread@dinner@the-fresh-food-co-at-marciano-commons",
+    "name": "Pita Bread",
+    "hall": "The Fresh Food Co. at Marciano Commons",
+    "mealType": "dinner",
+    "calories": 210,
+    "protein": 7,
+    "carbs": 41,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Halal"
+    ],
+    "description": "Pita Bread",
+    "ingredients": "7\" Pita Bread (enriched wheat flour [wheat flour, malted barley flour, niacin, reduced iron, thiamine mononitrate [b1], riboflavin [b2], folic acid], water, soybean oil and/or canola oil, whole wheat flour, contains 2% or less of: yeast, salt, sugar, dough conditioner [calcium sulfate, guar gum, mono- and diglycerides, enzymes], baking powder [sodium acid pyrophosphate, sodium bicarbonate, monocalcium phosphate], nonfat dry milk, calcium propionate and potassium sorbate, calcium acetate [preservatives], yeast nutrients [ammonium sulfate, ascorbic acid])"
+  },
+  {
+    "id": "parslied-brown-rice-farro@dinner@the-fresh-food-co-at-marciano-commons",
+    "name": "Parslied Brown Rice & Farro",
+    "hall": "The Fresh Food Co. at Marciano Commons",
+    "mealType": "dinner",
+    "calories": 130,
+    "protein": 4,
+    "carbs": 23,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Halal"
+    ],
+    "description": "Parslied Brown Rice & Farro",
+    "ingredients": "Water, Farro, Whole Grain Brown Rice ((long grain parboiled brown rice) ), Fresh Yellow Onion, Fresh Parsley, Fresh Garlic, Extra Virgin Olive Oil, Coarse Flaked Kosher Salt (salt, yellow prussiate of soda [yps]), Ground Black Pepper"
+  },
+  {
+    "id": "baked-falafel@dinner@the-fresh-food-co-at-marciano-commons",
+    "name": "Baked Falafel",
+    "hall": "The Fresh Food Co. at Marciano Commons",
+    "mealType": "dinner",
+    "calories": 60,
+    "protein": 3,
+    "carbs": 10,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Halal"
+    ],
+    "description": "Baked Falafel",
+    "ingredients": "Falafel Ball (water, chickpeas, parsley, onions, cilantro, serrano peppers, garlic puree [garlic, citric acid and ascorbic acid], contains 2% or less of: salt, spices, rice flour, xanthan gum)"
+  },
+  {
+    "id": "chicken-shawarma@dinner@the-fresh-food-co-at-marciano-commons",
+    "name": "Chicken Shawarma",
+    "hall": "The Fresh Food Co. at Marciano Commons",
+    "mealType": "dinner",
+    "calories": 160,
+    "protein": 25,
+    "carbs": 1,
+    "fat": 1,
+    "dietaryRestrictions": [
+      "Halal"
+    ],
+    "description": "Chicken Shawarma",
+    "ingredients": "Halal Chicken Breast (boneless skinless chicken breasts with rib meat), Bottled Lemon Juice (filtered water, lemon juice concentrate, sodium bisulfite [preservative], sodium benzoate [preservative], lemon oil), Oil Blend (vegetable oil [may contain one or more of the following: 90% soybean and/or canola and/or corn oil, and/or sunflower oil], 10% olive [pomace] oil, beta-carotene), Ground Coriander, Coarse Flaked Kosher Salt (salt, yellow prussiate of soda [yps]), Ground Cumin, Ground Allspice, Ground Cinnamon, Ground Paprika (paprika and silicon dioxide [added to make free flowing]), Ground Ginger (ginger, and sulfur dioxide [added to retain color]), Ground Turmeric, Ground Black Pepper, Cayenne Pepper (red pepper)"
+  },
+  {
+    "id": "beef-gyro-meat@dinner@the-fresh-food-co-at-marciano-commons",
+    "name": "Beef Gyro Meat",
+    "hall": "The Fresh Food Co. at Marciano Commons",
+    "mealType": "dinner",
+    "calories": 260,
+    "protein": 17,
+    "carbs": 12,
+    "fat": 9,
+    "dietaryRestrictions": [],
+    "description": "Beef Gyro Meat",
+    "ingredients": "Gyro Meat (beef, water, bread crumbs [wheat flour, water, dextrose, salt, yeast contains 2% or less of the following: expeller pressed sunflower oil], and/or enriched wheat flour [wheat flour, malted barley flour, niacin, reduced iron, thiamin mononitrate, riboflavin, folic acid], water, soybean oil, yeast, sugar, salt, honey, olive oil, water, seasonings [corn syrup solids, spices, dehydrated garlic, hydrolyzed corn gluten, autolyzed yeast extract], onions, spices, lemon juice, spearmint, soy protein concentrate, monosodium glutamate)"
+  },
+  {
+    "id": "shredded-iceberg-lettuce@dinner@the-fresh-food-co-at-marciano-commons",
+    "name": "Shredded Iceberg Lettuce",
+    "hall": "The Fresh Food Co. at Marciano Commons",
+    "mealType": "dinner",
+    "calories": 0,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Halal"
+    ],
+    "description": "Shredded Iceberg Lettuce",
+    "ingredients": "Fresh Lettuce"
+  },
+  {
+    "id": "sliced-red-onions@dinner@the-fresh-food-co-at-marciano-commons",
+    "name": "Sliced Red Onions",
+    "hall": "The Fresh Food Co. at Marciano Commons",
+    "mealType": "dinner",
+    "calories": 45,
+    "protein": 1,
+    "carbs": 11,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Halal"
+    ],
+    "description": "Sliced Red Onions",
+    "ingredients": "Fresh Red Onion"
+  },
+  {
+    "id": "pickled-vegetable-salad@dinner@the-fresh-food-co-at-marciano-commons",
+    "name": "Pickled Vegetable Salad",
+    "hall": "The Fresh Food Co. at Marciano Commons",
+    "mealType": "dinner",
+    "calories": 25,
+    "protein": 1,
+    "carbs": 5,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan"
+    ],
+    "description": "Pickled Vegetable Salad",
+    "ingredients": "Apple Cider Vinegar (apple cider vinegar, distilled vinegar from grain, natural flavor with caramel color, diluted with water to a uniform pickling and table strength of 5% [50 grains] acidity), Fresh Broccoli, Water, Fresh Pineapple, Fresh Red Onion, Fresh Bell Pepper, Fresh Cauliflower, Granulated Sugar, Whole Cloves, Habanero Chili Pepper, Ground Black Pepper, Ground Paprika (paprika and silicon dioxide [added to make free flowing]), Coarse Flaked Kosher Salt (salt, yellow prussiate of soda [yps])"
+  },
+  {
+    "id": "hummus@dinner@the-fresh-food-co-at-marciano-commons",
+    "name": "Hummus",
+    "hall": "The Fresh Food Co. at Marciano Commons",
+    "mealType": "dinner",
+    "calories": 245,
+    "protein": 6,
+    "carbs": 14,
+    "fat": 2,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Halal"
+    ],
+    "description": "Hummus",
+    "ingredients": "Low Sodium Garbanzo Beans (prepared chick peas, water, salt, calcium chloride [firming agent], disodium edta [promotes color retention]), Bottled Lemon Juice (filtered water, lemon juice concentrate, sodium bisulfite [preservative], sodium benzoate [preservative], lemon oil), 100% Pure Tahini (sesame seeds), Oil Blend (vegetable oil [may contain one or more of the following: 90% soybean and/or canola and/or corn oil, and/or sunflower oil], 10% olive [pomace] oil, beta-carotene), Fresh Garlic, Coarse Flaked Kosher Salt (salt, yellow prussiate of soda [yps])"
+  },
+  {
+    "id": "gsu-tahini-sauce@dinner@the-fresh-food-co-at-marciano-commons",
+    "name": "Gsu Tahini Sauce",
+    "hall": "The Fresh Food Co. at Marciano Commons",
+    "mealType": "dinner",
+    "calories": 100,
+    "protein": 2,
+    "carbs": 2,
+    "fat": 1,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Halal"
+    ],
+    "description": "Gsu Tahini Sauce",
+    "ingredients": "100% Pure Tahini (sesame seeds), Non-Fat Plain Greek Yogurt (cultured grade a non fat milk. contains live and active cultures: s. thermophilus, l. bulgaricus, l.acidophilus, bifidus, l. casei, and l. rhammnosus.), Extra Virgin Olive Oil, Bottled Lemon Juice (filtered water, lemon juice concentrate, sodium bisulfite [preservative], sodium benzoate [preservative], lemon oil), Ground Cumin, Coarse Flaked Kosher Salt (salt, yellow prussiate of soda [yps])"
+  },
+  {
+    "id": "tzatziki-sauce@dinner@the-fresh-food-co-at-marciano-commons",
+    "name": "Tzatziki Sauce",
+    "hall": "The Fresh Food Co. at Marciano Commons",
+    "mealType": "dinner",
+    "calories": 60,
+    "protein": 3,
+    "carbs": 3,
+    "fat": 2,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Halal"
+    ],
+    "description": "Tzatziki Sauce",
+    "ingredients": "Non-Fat Plain Greek Yogurt (cultured grade a non fat milk. contains live and active cultures: s. thermophilus, l. bulgaricus, l.acidophilus, bifidus, l. casei, and l. rhammnosus.), Sour Cream (cultured milk and cream, modified corn starch, guar gum, sodium citrate, carrageenan, locust bean gum, enzymes), Fresh Cucumber, Bottled Lemon Juice (filtered water, lemon juice concentrate, sodium bisulfite [preservative], sodium benzoate [preservative], lemon oil), Fresh Yellow Onion, Fresh Dill, Fresh Garlic, Coarse Flaked Kosher Salt (salt, yellow prussiate of soda [yps]), Ground Black Pepper"
+  },
+  {
+    "id": "lemon-tahini-dressing@dinner@the-fresh-food-co-at-marciano-commons",
+    "name": "Lemon Tahini Dressing",
+    "hall": "The Fresh Food Co. at Marciano Commons",
+    "mealType": "dinner",
+    "calories": 65,
+    "protein": 2,
+    "carbs": 3,
+    "fat": 1,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Halal"
+    ],
+    "description": "Lemon Tahini Dressing",
+    "ingredients": "Water, 100% Pure Tahini (sesame seeds), Bottled Lemon Juice (filtered water, lemon juice concentrate, sodium bisulfite [preservative], sodium benzoate [preservative], lemon oil), Fresh Parsley, Fresh Garlic, Ground Cumin, Coarse Flaked Kosher Salt (salt, yellow prussiate of soda [yps])"
+  },
+  {
+    "id": "skhug-sauce@dinner@the-fresh-food-co-at-marciano-commons",
+    "name": "Skhug Sauce",
+    "hall": "The Fresh Food Co. at Marciano Commons",
+    "mealType": "dinner",
+    "calories": 100,
+    "protein": 0,
+    "carbs": 2,
+    "fat": 1,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Halal"
+    ],
+    "description": "Skhug Sauce",
+    "ingredients": "Oil Blend (vegetable oil [may contain one or more of the following: 90% soybean and/or canola and/or corn oil, and/or sunflower oil], 10% olive [pomace] oil, beta-carotene), Fresh Jalapeño Pepper, Bottled Lemon Juice (filtered water, lemon juice concentrate, sodium bisulfite [preservative], sodium benzoate [preservative], lemon oil), Fresh Parsley, Fresh Cilantro, Fresh Garlic, Ground Cardamom, Ground Coriander, Coarse Flaked Kosher Salt (salt, yellow prussiate of soda [yps])"
+  },
+  {
+    "id": "feta-cheese-crumbles@dinner@the-fresh-food-co-at-marciano-commons",
+    "name": "Feta Cheese Crumbles",
+    "hall": "The Fresh Food Co. at Marciano Commons",
+    "mealType": "dinner",
+    "calories": 40,
+    "protein": 2,
+    "carbs": 0,
+    "fat": 2,
+    "dietaryRestrictions": [],
+    "description": "Feta Cheese Crumbles",
+    "ingredients": "Crumbled Feta Cheese (feta cheese [cultured pasteurized milk, salt, enzymes], powdered cellulose [to prevent caking], natamycin [a natural mold inhibitor])"
+  },
+  {
+    "id": "garden-salad@dinner@the-fresh-food-co-at-marciano-commons",
+    "name": "Garden Salad",
+    "hall": "The Fresh Food Co. at Marciano Commons",
+    "mealType": "dinner",
+    "calories": 250,
+    "protein": 7,
+    "carbs": 17,
+    "fat": 5,
+    "dietaryRestrictions": [],
+    "description": "Garden Salad",
+    "ingredients": "Fresh Lettuce, Fresh Grape Tomatoes, Homestyle Ranch Dressing (soybean oil, water, cultured buttermilk, egg yolk, distilled vinegar, contains less than 2% of salt, monosodium glutamate, modified corn starch, buttermilk solids, sugar, garlic, * xanthan gum, spice, citric acid, onion, * sorbic acid [preservative], calcium disodium edta [to protect flavor], milk, natural flavor, egg whites. *dried CONTAINS EGG, MILK.), Homestyle Croutons (enriched flour [wheat flour, malted barley flour, niacin, reduced iron, thiamin mononitrate, riboflavin, folic acid], canola and/or sunflower oil [with rosemary extract and ascorbic acid [to preserve freshness]], whey, salt, sugar, yeast, 2% or less of spices, dehydrated parsley, onion powder, paprika [color], turmeric [color], extractive of paprika [color], spice extractive, enzymes), Shredded Cheddar Cheese (pasteurized milk, cheese culture, salt, enzymes and annatto [if colored]. potato starch and powdered cellulose added to prevent caking), Fresh Bell Pepper, Fresh Bell Pepper"
+  },
+  {
+    "id": "tabbouleh@dinner@the-fresh-food-co-at-marciano-commons",
+    "name": "Tabbouleh",
+    "hall": "The Fresh Food Co. at Marciano Commons",
+    "mealType": "dinner",
+    "calories": 145,
+    "protein": 3,
+    "carbs": 20,
+    "fat": 1,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Halal"
+    ],
+    "description": "Tabbouleh",
+    "ingredients": "Water, Fresh Tomatoes, Bulgur Wheat, Fresh Parsley, Bottled Lemon Juice (filtered water, lemon juice concentrate, sodium bisulfite [preservative], sodium benzoate [preservative], lemon oil), Oil Blend (vegetable oil [may contain one or more of the following: 90% soybean and/or canola and/or corn oil, and/or sunflower oil], 10% olive [pomace] oil, beta-carotene), Scallion, Fresh Mint Leaves, Coarse Flaked Kosher Salt (salt, yellow prussiate of soda [yps]), Ground Black Pepper, Fresh Garlic"
+  },
+  {
+    "id": "create-your-own-sandwich-station@dinner@the-fresh-food-co-at-marciano-commons",
+    "name": "Create Your Own Sandwich Station",
+    "hall": "The Fresh Food Co. at Marciano Commons",
+    "mealType": "dinner",
+    "calories": 240,
+    "protein": 14,
+    "carbs": 20,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Halal",
+      "Coolfood"
+    ],
+    "description": "Create Your Own Sandwich Station",
+    "ingredients": "Deli Turkey Breast (turkey breast meat, turkey broth, salt, turbinado sugar, browned in oil), Fresh Tomatoes, Fresh Lettuce, Mayonnaise (soybean oil, distilled vinegar, egg yolk, high fructose corn syrup, contains less than 2% of salt, water, mustard seed, calcium sodium edta [to protect flavor]), Sweetened Cranberry Sauce (cranberries, water, high fructose corn syrup, corn syrup and citric acid), Bottled Lemon Juice (filtered water, lemon juice concentrate, sodium bisulfite [preservative], sodium benzoate [preservative], lemon oil), Coarse Flaked Kosher Salt (salt, yellow prussiate of soda [yps]), Ground Black Pepper, Multigrain Panini Bread (stone ground whole white wheat flour, unbleached, unbromated enriched wheat flour [malted, barley flour, niacin, reduced iron, thiamine mononitrate, riboflavin and folic acid], water, rye chops, yeast, contains 2 % or less of the following: salt, soybean oil, wheat gluten, cracked wheat, corn grits, flaxseeds, cultured wheat flour, oats, rolled wheat flakes, organic spelt, barley flakes, millet, ascorbic acid, rye flakes, guar gum, enzymes, monoglyerides [SESAME SEEDS USED INSIDE BAKERY])"
+  },
+  {
+    "id": "sargent-choice-orange-beef-stir-fry@dinner@the-fresh-food-co-at-marciano-commons",
+    "name": "Sargent Choice Orange Beef Stir Fry",
+    "hall": "The Fresh Food Co. at Marciano Commons",
+    "mealType": "dinner",
+    "calories": 305,
+    "protein": 25,
+    "carbs": 32,
+    "fat": 2,
+    "dietaryRestrictions": [
+      "Gluten-Free"
+    ],
+    "description": "Sargent Choice Orange Beef Stir Fry",
+    "ingredients": "Top Round Beef, Fresh Snow Peas, Fresh Bell Pepper, Orange Juice (100% orange juice from concentrate contains pure filtered water, premium concentrated orange juice, ascorbic acid [vitamin c]**. **ingredient not found in regular orange juice from concentrate), Oil Blend (vegetable oil [may contain one or more of the following: 90% soybean and/or canola and/or corn oil, and/or sunflower oil], 10% olive [pomace] oil, beta-carotene), Water, Whole Grain Brown Rice ((long grain parboiled brown rice) ), Granulated Sugar, Fresh Garlic, Corn Starch, Orange Zest Puree (chopped orange peels, cane sugar and natural orange flavor), Fresh Gingerroot, Gluten-Free Tamari Soy Sauce (water, soybeans, salt, sugar, brewing starter, alcohol, vinegar, lactic acid)"
+  },
+  {
+    "id": "brown-rice@dinner@the-fresh-food-co-at-marciano-commons",
+    "name": "Brown Rice",
+    "hall": "The Fresh Food Co. at Marciano Commons",
+    "mealType": "dinner",
+    "calories": 105,
+    "protein": 2,
+    "carbs": 22,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten-Free",
+      "Halal"
+    ],
+    "description": "Brown Rice",
+    "ingredients": "Water, Whole Grain Brown Rice ((long grain parboiled brown rice) )"
+  },
+  {
+    "id": "lemon-broccoli@dinner@the-fresh-food-co-at-marciano-commons",
+    "name": "Lemon Broccoli",
+    "hall": "The Fresh Food Co. at Marciano Commons",
+    "mealType": "dinner",
+    "calories": 20,
+    "protein": 2,
+    "carbs": 4,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten-Free",
+      "Halal"
+    ],
+    "description": "Lemon Broccoli",
+    "ingredients": "Fresh Broccoli, Lemon Zest Puree (chopped lemon peels, cane sugar and natural lemon flavor), Coarse Flaked Kosher Salt (salt, yellow prussiate of soda [yps]), Ground Black Pepper"
+  },
+  {
+    "id": "grill-works@dinner@the-fresh-food-co-at-marciano-commons",
+    "name": "Grill Works",
+    "hall": "The Fresh Food Co. at Marciano Commons",
+    "mealType": "dinner",
+    "calories": 340,
+    "protein": 18,
+    "carbs": 30,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Halal"
+    ],
+    "description": "Grill Works",
+    "ingredients": "Ground Beef, Coarse Flaked Kosher Salt (salt, yellow prussiate of soda [yps]), Ground Black Pepper, Low-Sodium Yellow American Cheese (american cheese (milk, cheese culture, salt, enzymes), water, cream, potassium citrate, sodium citrate, sorbic acid as a preservative, color added, sunflower lecithin (release agent).), Brioche Slider Roll (unbleached, unbromated enriched wheat flour [malted barley flour, niacin, reduced iron, thiamine mononitrate, riboflavin and folic acid], water, yeast, malted barley flour, sugar, contains 2% or less of the following: salt, soybean oil, wheat gluten, sodium alginate, corn starch, annatto extract & turmeric extract, calcium propionate, ascorbic acid, canola oil, sunflower lecithin, wheat protein isolate, enzymes, vegetable proteins, vegetable oil, dextrose, maltodextrins, natural flavors [SESAME SEEDS USED INSIDE BAKERY])"
+  },
+  {
+    "id": "mushroom-bacon-gnocchi@dinner@the-fresh-food-co-at-marciano-commons",
+    "name": "Mushroom Bacon Gnocchi",
+    "hall": "The Fresh Food Co. at Marciano Commons",
+    "mealType": "dinner",
+    "calories": 275,
+    "protein": 9,
+    "carbs": 39,
+    "fat": 1,
+    "dietaryRestrictions": [
+      "Coolfood"
+    ],
+    "description": "Mushroom Bacon Gnocchi",
+    "ingredients": "Fresh Yellow Onion, Fresh White Button Mushroom, Potato Gnocchi (potatoes, durum flour [durum wheat flour, niacin, ferrous sulfate, thiamin mononitrate, riboflavin, folic acid], pasteurized liquid eggs, rice flour [sifted over pasta before bagging to prevent sticking], salt, white pepper, nutmeg), Spaghetti Sauce (tomato concentrate (water, tomato paste), corn syrup, salt, spices, dehydrated parsley, citric acid, natural flavor), Bacon Bits (pork cured with water, salt, sugar, smoke flavoring, sodium phosphates, sodium erythorbate, sodium nitrite), Oil Blend (vegetable oil [may contain one or more of the following: 90% soybean and/or canola and/or corn oil, and/or sunflower oil], 10% olive [pomace] oil, beta-carotene), Fresh Garlic, Fresh Basil Leaves, Coarse Flaked Kosher Salt (salt, yellow prussiate of soda [yps]), Ground Black Pepper"
+  },
+  {
+    "id": "buffalo-baked-chicken-breast-sargent-choice@dinner@the-fresh-food-co-at-marciano-commons",
+    "name": "Buffalo Baked Chicken Breast (Sargent Choice)",
+    "hall": "The Fresh Food Co. at Marciano Commons",
+    "mealType": "dinner",
+    "calories": 230,
+    "protein": 27,
+    "carbs": 21,
+    "fat": 1,
+    "dietaryRestrictions": [],
+    "description": "Buffalo Baked Chicken Breast (Sargent Choice)",
+    "ingredients": "Halal Chicken Breast (boneless skinless chicken breasts with rib meat), Buttermilk (cultured pasteurized fat free milk, salt, and sodium citrate), Plain Bread Crumbs (enriched flour [wheat flour, malted barley flour, niacin, reduced iron, thiamin mononitrate [vitamin b1], riboflavin [vitamin b2], folic acid], water, high fructose corn syrup, yeast, salt, vegetable oil [soybean, cottonseed and/or canola], sugar, may contain 2% or less of the following: wheat gluten, dextrose, soy flour, whey, calcium propionate [preservative], sodium stearoyl lactylate [dough conditioner], mono- and diglycerides, soy lecithin, molasses, honey, whole wheat flour, corn flour, cornmeal, citric acid, grain vinegar, wheat starch, corn starch, potato flour, rice flour, wheat bran, oat fiber, calcium sulfate, datem, potassium iodate, guar gum, calcium phosphate, enrichment [vitamin e acetate, vitamin a palmitate, vitamin d3], lactic acid, ascorbic acid [dough conditioner], spice & coloring, natural and artificial flavor, sesame seeds), Red Hot Cayenne Pepper Sauce (aged cayenne red peppers, distilled vinegar, water, salt & garlic powder), Ground Black Pepper, Cayenne Pepper (red pepper), Parsley Flakes"
+  },
+  {
+    "id": "roasted-cauliflower@dinner@the-fresh-food-co-at-marciano-commons",
+    "name": "Roasted Cauliflower",
+    "hall": "The Fresh Food Co. at Marciano Commons",
+    "mealType": "dinner",
+    "calories": 50,
+    "protein": 2,
+    "carbs": 4,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Halal"
+    ],
+    "description": "Roasted Cauliflower",
+    "ingredients": "Fresh Cauliflower, Oil Blend (vegetable oil [may contain one or more of the following: 90% soybean and/or canola and/or corn oil, and/or sunflower oil], 10% olive [pomace] oil, beta-carotene), Coarse Flaked Kosher Salt (salt, yellow prussiate of soda [yps]), Ground Black Pepper"
+  },
+  {
+    "id": "glazed-carrots@dinner@the-fresh-food-co-at-marciano-commons",
+    "name": "Glazed Carrots",
+    "hall": "The Fresh Food Co. at Marciano Commons",
+    "mealType": "dinner",
+    "calories": 105,
+    "protein": 1,
+    "carbs": 14,
+    "fat": 2,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Halal"
+    ],
+    "description": "Glazed Carrots",
+    "ingredients": "Frozen Carrots, Light Brown Sugar (brown sugar [when produced at chalmette or crockett facilities] sugar, molasses [when produced at south bay facility]), Smart Balance Margarine (oil blend [palm, soybean, canola, and olive oil], water, contains less than 2% of salt, enzyme-modified soybean lecithin, natural & artificial flavor, potassium sorbate and calcium disodium edta [to preserve freshness], lactic acid, vitamin a palmitate, beta-carotene color), Orange Juice (100% orange juice from concentrate contains pure filtered water, premium concentrated orange juice, ascorbic acid [vitamin c]**. **ingredient not found in regular orange juice from concentrate), Coarse Flaked Kosher Salt (salt, yellow prussiate of soda [yps])"
+  },
+  {
+    "id": "create-your-own@dinner@the-fresh-food-co-at-marciano-commons",
+    "name": "Create Your Own",
+    "hall": "The Fresh Food Co. at Marciano Commons",
+    "mealType": "dinner",
+    "calories": 245,
+    "protein": 5,
+    "carbs": 28,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Halal"
+    ],
+    "description": "Create Your Own",
+    "ingredients": "Water, Bulgur Wheat, Water, Quinoa, Bottled Lemon Juice (filtered water, lemon juice concentrate, sodium bisulfite [preservative], sodium benzoate [preservative], lemon oil), Extra Virgin Olive Oil, Fresh Kale, Fresh Parsley, Coarse Flaked Kosher Salt (salt, yellow prussiate of soda [yps]), Ground Black Pepper"
+  },
+  {
+    "id": "new-orleans-vegetable-jambalaya@dinner@the-fresh-food-co-at-marciano-commons",
+    "name": "New Orleans Vegetable Jambalaya",
+    "hall": "The Fresh Food Co. at Marciano Commons",
+    "mealType": "dinner",
+    "calories": 195,
+    "protein": 6,
+    "carbs": 37,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Coolfood"
+    ],
+    "description": "New Orleans Vegetable Jambalaya",
+    "ingredients": "Crushed Tomatoes (vine ripened tomatoes, tomato puree, sea salt and citric acid), Chunky Diced Tomatoes (vine ripened tomatoes, tomato juice, sea salt, calcium chloride, citric acid), Frozen Okra, Fresh Bell Pepper, Fresh Bell Pepper, Fresh Yellow Onion, Fresh Celery, Scallion, Fresh Garlic, Canola Oil, Water, White Rice (long grain rice enriched with iron [ferric orthophosphate], niacin, thiamin [thiamin mononitrate] and folic acid), Dark Red Kidney Beans (prepared dark kidney beans, water, salt, sugar, dextrose, calcium chloride [firming agent], and disodium edta [to promote color retention]), Fresh Yellow Onion, Fresh Bell Pepper, Dried Oregano, Cayenne Pepper (red pepper), Fresh Garlic, Low-Sodium Gluten-Free Vegetable Base ((sauteed vegetable puree mix [onion, carrot, celery, soybean oil], salt, sugar, maltodextrin, vegetable oil [corn and/or canola oil], yeast extract, carrot powder, potatoes, garlic powder, onion powder, corn oil, natural flavor [contains carrot, celery, and canola oil], cabbage, beet powder, oleoresin paprika, citric acid, 2% or less of water, potato starch, xanthan gum, carrot juice concentrate) ), Oil Blend (vegetable oil [may contain one or more of the following: 90% soybean and/or canola and/or corn oil, and/or sunflower oil], 10% olive [pomace] oil, beta-carotene), Dried Bay Leaves, Coarse Flaked Kosher Salt (salt, yellow prussiate of soda [yps]), Ground Black Pepper"
+  },
+  {
+    "id": "assorted-cookies@dinner@the-fresh-food-co-at-marciano-commons",
+    "name": "Assorted Cookies",
+    "hall": "The Fresh Food Co. at Marciano Commons",
+    "mealType": "dinner",
+    "calories": 95,
+    "protein": 1,
+    "carbs": 14,
+    "fat": 2,
+    "dietaryRestrictions": [],
+    "description": "Assorted Cookies",
+    "ingredients": "Granulated Sugar, Ground Cinnamon, Oatmeal Raisin Cookies (sugar, enriched wheat flour [wheat flour, malted barley flour, niacin, iron, thiamine mononitrate, riboflavin, folic acid], margarine [vegetable oil blend [palm oil, soybean oil, olive oil], water, salt, non-fat dry milk, soy lecithin, monoglycerides, diglycerides, natural flavor [contains milk], citric acid, vitamin a palmitate, beta carotene [color]], oats, raisins [raisins, sunflower oil], eggs, molasses, dextrose, water, pregelatinized wheat starch, baking soda, salt, cinnamon, defatted soy flour, artificial vanilla flavor, brown sugar, rolled oats. CONTAINS: EGGS, MILK, SOY, WHEAT), Sugar Cookies ((enriched flour [bleached wheat flour, malted barley flour, niacin, iron, thiamine mononitrate, riboflavin, folic acid], sugar, vegetable oil blend [soybean, palm & olive oils, water, salt, milk, mono & diglycerides, soy lecithin, sodium benzoate, natural & artificial flavors, vitamin a palmitate, beta carotene for color], vegetable shortening [partially hydrogenated soybean & cottonseed oils], pasteurized whole eggs, margarine [partially hydrogenated soybean oil, water, salt, milk powder, soy lecithin, mono & diglycerides, potassium sorbate, beta carotene for color, artificial flavor, vitamin a palmitate], margarine [palm oil, water, soybean oil, contains 2% or less of: salt, mono- and diglycerides, natural flavor [contains milk], citric acid, vitamin a palmitate added, beta carotene [color]], eggs, butter [cream [milk], salt], contains 2% or less of: invert sugar, baking soda, defatted soy flour, natural & artificial butter flavor, salt, soy lecithin CONTAINS: EGGS, MILK, SOY, WHEAT. MAY CONTAIN: PEANUTS, SESAME SEEDS, TREE NUTS).), Chocolate Chip Cookies ((enriched flour [unbleached or bleached wheat flour, malted barley flour, niacin, iron, thiamine mononitrate, riboflavin, folic acid], chocolate chips [sugar, cocoa butter, chocolate liquor, vanilla, soy lecithin, unsweetened chocolate, dextrose, natural flavor, milk], chocolate flavored chips [sugar, fractionated interesterified vegetable fat [palm kernel and/or palm oils], cocoa powder [processed with alkali], dextrose, soy lecithin, polysorbate 60, sorbitan monostearate, natural flavor, salt, vanilla extract, milk], vegetable oil blend [soybean, palm & olive oils, water, salt, mono & diglycerides, soy lecithin, potassium sorbate [preservative], natural & artificial flavors, vitamin A palmitate, beta carotene for color], palm oil, margarine [palm oil, water, soybean oil, contains 2% or less of: salt, mono- and diglycerides, natural flavor [contains milk], citric acid, vitamin A palmitate added, beta carotene [color]], brown sugar, sugar, pasteurized whole eggs, eggs, water, dextrose, molasses, pregelatinized wheat starch, butter [cream [milk], salt], baking soda, salt, natural and artificial flavor, all natural vanilla flavor CONTAINS: EGGS, MILK, SOY, WHEAT). ), \"DO NOT USE - DOUGH COOKIE VALUE CARNIVAL 1 OZ FZ\" (ingredient details unavailable at this time)"
+  },
+  {
+    "id": "vanilla-cupcake@dinner@the-fresh-food-co-at-marciano-commons",
+    "name": "Vanilla Cupcake",
+    "hall": "The Fresh Food Co. at Marciano Commons",
+    "mealType": "dinner",
+    "calories": 730,
+    "protein": 6,
+    "carbs": 121,
+    "fat": 14,
+    "dietaryRestrictions": [
+      "Vegetarian"
+    ],
+    "description": "Vanilla Cupcake",
+    "ingredients": "Yellow Cake Mix (enriched bleached flour [wheat flour, niacin, reduced iron, thiamin mononitrate, riboflavin, folic acid, malted barley flour], sugar, palm and soybean oil, dextrose, less than 2% of: leavening [sodium aluminum phosphate, aluminum sulfate, baking soda], corn syrup solids, egg with sodium silicoaluminate, egg whites, food starch-modified, monocalcium phosphate, mono and diglycerides, modified whey, natural and artificial flavors [contains milk derivatives], nonfat milk, polyglycerol esters of fatty acids and mono-diglycerides, modified corn starch, polysorbate 60, propylene glycol mono and diesters of fatty acids, salt, sodium aluminum phosphate, sodium stearoyl lactylate, soy lecithin, annatto and turmeric extract color, yellow 5, yellow 5 lake, yellow 6, yellow 6 lake, xanthan gum, defatted soy flour), Vanilla Icing (sugar, palm oil, water, corn syrup, corn starch. contains 2% or less of: salt, monoglycerides, yellows 5 & 6 and other color added, polysorbate 60, potassium sorbate [preservative], natural and artificial flavor, sodium stearoyl lactylate, sodium acid pyrophosphate, citric acid), Water, Mini M&Ms (milk chocolate [sugar, chocolate, skim milk, cocoa butter, lactose, milkfat, soy lecithin, salt, natural flavor], sugar, less than 2% of: colors (includes blue 1 lake, red 40, yellow 6, yellow 5, blue 1, red 40 lake, yellow 6 lake, yellow 5 lake, blue 2 lake, blue 2), corn syrup, dextrin, cornstarch, carnauba wax [MAY CONTAIN PEANUTS]), Small Oreo Cookie Crumbles (unbleached enriched flour [wheat flour, niacin, reduced iron, thiamine mononitrate [vitamin b1], riboflavin [vitamin b2], folic acid], sugar, palm oil, soybean and/or canola oil, cocoa [processed with alkali], invert sugar, leavening [baking soda and/or calcium phosphate], soy lecithin, salt, chocolate, natural flavor), Baking Semi-Sweet Chocolate Chips (sugar, chocolate liquor, cocoa butter, milkfat, soy lecithin, natural flavor), Gluten Free Whole-Grain Oats (gluten free oats), Pure Maple Syrup (100% pure grade \"a\" dark robust taste maple syrup), Water, Oil Blend (vegetable oil [may contain one or more of the following: 90% soybean and/or canola and/or corn oil, and/or sunflower oil], 10% olive [pomace] oil, beta-carotene), Pure Clover Honey, Rainbow Sprinkles (sugar, corn starch, palm oil & palm kernel oil, dextrin, soy lecithin, confectioners glaze, carnauba wax, fd&c yellow #5 lake, fd&c yellow #6 lake, fd&c blue #1 lake, fd&c red#40 lake, fd&c red#3), Sweetened Dried Cranberries (cranberries, sugar, sunflower oil), Dark Seedless Raisins, Whole-Wheat Stone-Ground Flour, Imitation Vanilla Extract (water, vanillin, caramel color, ethyl vanillin and 0.1% potassium sorbate [added as a preservative]), Ground Cinnamon"
+  },
+  {
+    "id": "traditional-bread-pudding@dinner@the-fresh-food-co-at-marciano-commons",
+    "name": "Traditional Bread Pudding",
+    "hall": "The Fresh Food Co. at Marciano Commons",
+    "mealType": "dinner",
+    "calories": 430,
+    "protein": 14,
+    "carbs": 55,
+    "fat": 9,
+    "dietaryRestrictions": [
+      "Vegetarian"
+    ],
+    "description": "Traditional Bread Pudding",
+    "ingredients": "Half & Half Cream (milk, cream and disodium phosphate), Liquid Whole Eggs ((whole eggs, egg whites [98%], citric acid, water, natural flavor, sodium hexametaphosphate, guar gum, xanthan gum, color [includes beta carotene]. vitamins and minerals: calcium sulfate, vitamin a palmitate, iron [ferric orthophosphate], vitamin e [alpha-tocopherol acetate], vitamin d3, zinc sulfate, calcium pantothenate, vitamin b12, vitamin b1 [thiamine mononitrate], vitamin b6 [pyridoxine hydrochloride], vitamin b2 [riboflavin], folic acid.) ), Sliced Texas Toast (unbleached, unbromated enriched wheat flour [malted barley flour, niacin, reduced iron, thiamine mononitrate, riboflavin and folic acid], water, yeast, sugar, contains 2% or less of the following: salt, soybean oil, wheat gluten, sodium alginate, annatto extract & turmeric extract, calcium propionate, ascorbic acid, canola oil, guar gum, sunflower lecithin, wheat protein isolate, enzymes, monoglyerides [SESAME SEEDS USED INSIDE BAKERY]), Granulated Sugar, Orange Juice (100% orange juice from concentrate contains pure filtered water, premium concentrated orange juice, ascorbic acid [vitamin c]**. **ingredient not found in regular orange juice from concentrate), Imitation Vanilla Extract (water, vanillin, caramel color, ethyl vanillin and 0.1% potassium sorbate [added as a preservative]), Orange Zest Puree (chopped orange peels, cane sugar and natural orange flavor), Baking Semi-Sweet Chocolate Chips (sugar, chocolate liquor, cocoa butter, milkfat, soy lecithin, natural flavor)"
+  },
+  {
+    "id": "vegan-gingerbread-cupcake-with-cream-cheese-icing@dinner@the-fresh-food-co-at-marciano-commons",
+    "name": "Vegan Gingerbread Cupcake With Cream Cheese Icing",
+    "hall": "The Fresh Food Co. at Marciano Commons",
+    "mealType": "dinner",
+    "calories": 150,
+    "protein": 1,
+    "carbs": 23,
+    "fat": 3,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan"
+    ],
+    "description": "Vegan Gingerbread Cupcake With Cream Cheese Icing",
+    "ingredients": "All Purpose Flour (bleached wheat flour, malted barley flour, niacin, iron, thiamin mononitrate, riboflavin, folic acid), Water, Granulated Sugar, Confectioner Sugar (sugar, corn starch), Molasses, Non-Dairy Cream Cheese (water, coconut oil, potato starch, sea salt, glucono-delta-lactone, flavour, olive extract.), Smart Balance Margarine PC (vegetable oil blend [soybean oil, palm oil and palm kernel oil], water, contains 2% or less of: salt, mono and diglycerides, sodium benzoate, lactic acid and calcium disodium edta [preservatives], soy lecithin [soy], natural flavor, beta carotene [color], vitamin a palmitate added), Apple Cider Vinegar (apple cider vinegar, distilled vinegar from grain, natural flavor with caramel color, diluted with water to a uniform pickling and table strength of 5% [50 grains] acidity), Ground Cinnamon, Baking Powder (sodium bicarbonate, cornstarch, sodium aluminum sulfate, monocalcium phosphate, silicon dioxide), Baking Soda (sodium bicarbonate), Ground Ginger (ginger, and sulfur dioxide [added to retain color]), Coarse Flaked Kosher Salt (salt, yellow prussiate of soda [yps]), Ground Allspice, Imitation Vanilla Extract (water, vanillin, caramel color, ethyl vanillin and 0.1% potassium sorbate [added as a preservative])"
+  }
+]

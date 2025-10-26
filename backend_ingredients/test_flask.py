@@ -1,17 +1,18 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Sat Oct 25 21:15:38 2025
+Created on Sat Oct 26 21:15:38 2025
 @author: matthewkim
 """
 import json
 from flask_backend import app  # replace with your .py file name (no .py)
 
 def test_filter_foods():
+    """Basic allergy filtering test"""
     with app.test_client() as client:
         data = {
             "allergies": ["Eggs"],
-            "dietary_restrictions": []
+            "dietaryRestrictions": []
         }
         response = client.post("/filter_foods", json=data)
         
@@ -22,92 +23,101 @@ def test_filter_foods():
         print("✅ Response JSON:")
         print(json.dumps(response_data, indent=2))
         
-        # Handle both response formats
-        if isinstance(response_data, list):
-            # Original format: direct list of foods
-            safe_foods = response_data
-        elif isinstance(response_data, dict) and "safe_foods" in response_data:
-            # New format: {"safe_foods": [...], ...}
-            safe_foods = response_data["safe_foods"]
-        else:
-            raise AssertionError(f"Unexpected response format: {response_data}")
-        
-        # The pancakes should be filtered out (it contains eggs)
+        safe_foods = response_data.get("safe_foods", response_data)
         names = [food["name"] for food in safe_foods]
         print(f"🍽️  Safe food names: {names}")
         
-        assert "Pancakes" not in names, "Pancakes should be filtered out (contains eggs)"
-        assert "Salad" in names, "Salad should be safe"
+        # Meals containing eggs should be filtered out
+        for forbidden in ["Scrambled Eggs & Toast", "French Toast with Syrup", 
+                          "Blueberry Protein Pancakes", "Spinach and Feta Omelette",
+                          "Avocado Toast with Poached Egg"]:
+            assert forbidden not in names, f"{forbidden} should be filtered out"
+        
+        # Meals that should be safe
+        for allowed in ["Grilled Chicken Salad", "Vegan Lentil Soup", "Vegan Chili",
+                        "Vegan Mushroom Risotto", "Vegetable Curry with Rice",
+                        "Quinoa Power Bowl", "Tofu Buddha Bowl"]:
+            assert allowed in names, f"{allowed} should be safe"
         
         total_filtered = response_data.get('total_filtered', 0)
         print(f"✅ Filtered out {total_filtered} unsafe food(s)")
+
 def test_multiple_allergies():
     """Test with multiple allergies"""
     with app.test_client() as client:
         data = {
             "allergies": ["Eggs", "Milk"],
-            "dietary_restrictions": []
+            "dietaryRestrictions": []
         }
         response = client.post("/filter_foods", json=data)
-        
         assert response.status_code == 200
+        
         response_data = response.get_json()
-        
-        safe_foods = response_data.get("safe_foods", response_data) if isinstance(response_data, dict) else response_data
+        safe_foods = response_data.get("safe_foods", response_data)
         names = [food["name"] for food in safe_foods]
-        
         print(f"🥛 Multiple allergies test - Safe foods: {names}")
-        assert "Pancakes" not in names, "Pancakes contain eggs and milk"
-        assert "Salad" in names, "Salad should be safe"
+        
+        # All foods containing Eggs or Milk must be filtered
+        forbidden = ["Scrambled Eggs & Toast", "French Toast with Syrup", 
+                     "Blueberry Protein Pancakes", "Spinach and Feta Omelette",
+                     "Avocado Toast with Poached Egg", 
+                     "Eggplant Parmesan"]
+        for item in forbidden:
+            assert item not in names, f"{item} contains eggs or milk"
+        
+        allowed = ["Grilled Chicken Salad", "Vegan Lentil Soup", "Vegan Chili",
+                   "Vegan Mushroom Risotto", "Vegetable Curry with Rice",
+                   "Quinoa Power Bowl", "Tofu Buddha Bowl"]
+        for item in allowed:
+            assert item in names, f"{item} should be safe"
 
 def test_vegan_restriction():
-    """Test dietary restrictions"""
+    """Test dietary restrictions for vegan"""
     with app.test_client() as client:
         data = {
             "allergies": [],
-            "dietary_restrictions": ["vegan"]
+            "dietaryRestrictions": ["Vegan"]
         }
         response = client.post("/filter_foods", json=data)
-        
         assert response.status_code == 200
+        
         response_data = response.get_json()
-        
-        safe_foods = response_data.get("safe_foods", response_data) if isinstance(response_data, dict) else response_data
+        safe_foods = response_data.get("safe_foods", response_data)
         names = [food["name"] for food in safe_foods]
-        
         print(f"🌱 Vegan restriction test - Safe foods: {names}")
-        # This depends on your restricted_ingredients implementation
-        # Pancakes have eggs and milk, so should be filtered for vegan
+        
+        # Only vegan meals should appear
+        non_vegan = ["Scrambled Eggs & Toast", "Grilled Chicken Salad", "French Toast with Syrup",
+                     "Blueberry Protein Pancakes", "Spinach and Feta Omelette", "Avocado Toast with Poached Egg",
+                     "Greek Yogurt Parfait", "Eggplant Parmesan", "Beef Lasagna"]
+        for item in non_vegan:
+            assert item not in names, f"{item} is not vegan and should be filtered"
 
 def test_no_restrictions():
     """Test with no restrictions - all foods should pass"""
     with app.test_client() as client:
         data = {
             "allergies": [],
-            "dietary_restrictions": []
+            "dietaryRestrictions": []
         }
         response = client.post("/filter_foods", json=data)
-        
         assert response.status_code == 200
-        response_data = response.get_json()
         
-        safe_foods = response_data.get("safe_foods", response_data) if isinstance(response_data, dict) else response_data
+        response_data = response.get_json()
+        safe_foods = response_data.get("safe_foods", response_data)
         
         print(f"🍴 No restrictions test - {len(safe_foods)} foods available")
-        assert len(safe_foods) == 2, "All foods should be safe with no restrictions"
+        assert len(safe_foods) >= 45, "All foods should be safe with no restrictions"
 
 def test_invalid_request():
     """Test error handling with invalid request"""
     with app.test_client() as client:
-        # Send invalid data (allergies as string instead of list)
         data = {
-            "allergies": "Eggs",  # Should be a list
-            "dietary_restrictions": []
+            "allergies": "Eggs",  # invalid: should be list
+            "dietaryRestrictions": []
         }
         response = client.post("/filter_foods", json=data)
-        
         print(f"❌ Invalid request test - Status: {response.status_code}")
-        # Should return 400 if using improved backend, or might still work with original
         if response.status_code == 400:
             print("✅ Proper error handling detected")
         else:

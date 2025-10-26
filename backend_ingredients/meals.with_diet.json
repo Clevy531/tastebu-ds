@@ -1,0 +1,1914 @@
+[
+  {
+    "id": "scrambled-eggs@breakfast@west-campus-dining-hall",
+    "name": "Scrambled Eggs",
+    "hall": "West Campus Dining Hall",
+    "mealType": "breakfast",
+    "calories": 140,
+    "protein": 12,
+    "carbs": 0,
+    "fat": 3,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Halal"
+    ],
+    "description": "Scrambled Eggs"
+  },
+  {
+    "id": "bacon@breakfast@west-campus-dining-hall",
+    "name": "Bacon",
+    "hall": "West Campus Dining Hall",
+    "mealType": "breakfast",
+    "calories": 110,
+    "protein": 7,
+    "carbs": 1,
+    "fat": 3,
+    "dietaryRestrictions": [],
+    "description": "Bacon"
+  },
+  {
+    "id": "hash-brown-potatoes@breakfast@west-campus-dining-hall",
+    "name": "Hash Brown Potatoes",
+    "hall": "West Campus Dining Hall",
+    "mealType": "breakfast",
+    "calories": 125,
+    "protein": 1,
+    "carbs": 19,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten-Free",
+      "Halal"
+    ],
+    "description": "Hash Brown Potatoes"
+  },
+  {
+    "id": "old-fashioned-oatmeal@breakfast@west-campus-dining-hall",
+    "name": "Old Fashioned Oatmeal",
+    "hall": "West Campus Dining Hall",
+    "mealType": "breakfast",
+    "calories": 105,
+    "protein": 4,
+    "carbs": 20,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Halal",
+      "Coolfood"
+    ],
+    "description": "Old Fashioned Oatmeal"
+  },
+  {
+    "id": "hard-boiled-eggs@breakfast@west-campus-dining-hall",
+    "name": "Hard Boiled Eggs",
+    "hall": "West Campus Dining Hall",
+    "mealType": "breakfast",
+    "calories": 155,
+    "protein": 13,
+    "carbs": 1,
+    "fat": 3,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Halal"
+    ],
+    "description": "Hard Boiled Eggs"
+  },
+  {
+    "id": "french-toast-bar@breakfast@west-campus-dining-hall",
+    "name": "French Toast Bar",
+    "hall": "West Campus Dining Hall",
+    "mealType": "breakfast",
+    "calories": 210,
+    "protein": 10,
+    "carbs": 31,
+    "fat": 2,
+    "dietaryRestrictions": [
+      "Vegetarian"
+    ],
+    "description": "French Toast Bar"
+  },
+  {
+    "id": "cinnamon-raisin-brioche-french-toast@breakfast@west-campus-dining-hall",
+    "name": "Cinnamon Raisin Brioche French Toast",
+    "hall": "West Campus Dining Hall",
+    "mealType": "breakfast",
+    "calories": 570,
+    "protein": 23,
+    "carbs": 79,
+    "fat": 10,
+    "dietaryRestrictions": [
+      "Vegetarian"
+    ],
+    "description": "Cinnamon Raisin Brioche French Toast"
+  },
+  {
+    "id": "compote-strawberry@breakfast@west-campus-dining-hall",
+    "name": "Compote Strawberry",
+    "hall": "West Campus Dining Hall",
+    "mealType": "breakfast",
+    "calories": 20,
+    "protein": 0,
+    "carbs": 5,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Halal"
+    ],
+    "description": "Compote Strawberry"
+  },
+  {
+    "id": "apple-ginger-compote@breakfast@west-campus-dining-hall",
+    "name": "Apple Ginger Compote",
+    "hall": "West Campus Dining Hall",
+    "mealType": "breakfast",
+    "calories": 60,
+    "protein": 0,
+    "carbs": 15,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Halal"
+    ],
+    "description": "Apple Ginger Compote"
+  },
+  {
+    "id": "whipped-cream@breakfast@west-campus-dining-hall",
+    "name": "Whipped Cream",
+    "hall": "West Campus Dining Hall",
+    "mealType": "breakfast",
+    "calories": 10,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan"
+    ],
+    "description": "Whipped Cream"
+  },
+  {
+    "id": "create-your-own@breakfast@west-campus-dining-hall",
+    "name": "Create Your Own",
+    "hall": "West Campus Dining Hall",
+    "mealType": "breakfast",
+    "calories": 80,
+    "protein": 3,
+    "carbs": 16,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten-Free",
+      "Halal",
+      "Coolfood"
+    ],
+    "description": "Create Your Own"
+  },
+  {
+    "id": "create-your-own-omelet-station@breakfast@west-campus-dining-hall",
+    "name": "Create Your Own Omelet Station",
+    "hall": "West Campus Dining Hall",
+    "mealType": "breakfast",
+    "calories": 20,
+    "protein": 1,
+    "carbs": 4,
+    "fat": 5,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Halal",
+      "Vegan",
+      "Coolfood"
+    ],
+    "description": "Create Your Own Omelet Station"
+  },
+  {
+    "id": "just-egg-ham-breakfast-potato@breakfast@west-campus-dining-hall",
+    "name": "Just® Egg & Ham Breakfast Potato",
+    "hall": "West Campus Dining Hall",
+    "mealType": "breakfast",
+    "calories": 220,
+    "protein": 10,
+    "carbs": 20,
+    "fat": 3,
+    "dietaryRestrictions": [
+      "Gluten-Free",
+      "Coolfood"
+    ],
+    "description": "Just® Egg & Ham Breakfast Potato"
+  },
+  {
+    "id": "blueberry-muffin@breakfast@west-campus-dining-hall",
+    "name": "Blueberry Muffin",
+    "hall": "West Campus Dining Hall",
+    "mealType": "breakfast",
+    "calories": 280,
+    "protein": 2,
+    "carbs": 33,
+    "fat": 4,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten-Free"
+    ],
+    "description": "Blueberry Muffin"
+  },
+  {
+    "id": "fresh-fruit-salad@breakfast@west-campus-dining-hall",
+    "name": "Fresh Fruit Salad",
+    "hall": "West Campus Dining Hall",
+    "mealType": "breakfast",
+    "calories": 35,
+    "protein": 0,
+    "carbs": 9,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten-Free",
+      "Halal"
+    ],
+    "description": "Fresh Fruit Salad"
+  },
+  {
+    "id": "sargent-choice-triple-berry-muffin@breakfast@west-campus-dining-hall",
+    "name": "Sargent Choice Triple Berry Muffin",
+    "hall": "West Campus Dining Hall",
+    "mealType": "breakfast",
+    "calories": 255,
+    "protein": 4,
+    "carbs": 40,
+    "fat": 1,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Halal"
+    ],
+    "description": "Sargent Choice Triple Berry Muffin"
+  },
+  {
+    "id": "chocolate-croissant@breakfast@west-campus-dining-hall",
+    "name": "Chocolate Croissant",
+    "hall": "West Campus Dining Hall",
+    "mealType": "breakfast",
+    "calories": 435,
+    "protein": 7,
+    "carbs": 49,
+    "fat": 11,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Halal"
+    ],
+    "description": "Chocolate Croissant"
+  },
+  {
+    "id": "apple-cinnamon-scone@breakfast@west-campus-dining-hall",
+    "name": "Apple Cinnamon Scone",
+    "hall": "West Campus Dining Hall",
+    "mealType": "breakfast",
+    "calories": 115,
+    "protein": 2,
+    "carbs": 17,
+    "fat": 3,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Halal"
+    ],
+    "description": "Apple Cinnamon Scone"
+  },
+  {
+    "id": "cheddar-buttermilk-biscuit@breakfast@west-campus-dining-hall",
+    "name": "Cheddar Buttermilk Biscuit",
+    "hall": "West Campus Dining Hall",
+    "mealType": "breakfast",
+    "calories": 180,
+    "protein": 4,
+    "carbs": 20,
+    "fat": 5,
+    "dietaryRestrictions": [],
+    "description": "Cheddar Buttermilk Biscuit"
+  },
+  {
+    "id": "chicken-wild-rice-soup@lunch@west-campus-dining-hall",
+    "name": "Chicken & Wild Rice Soup",
+    "hall": "West Campus Dining Hall",
+    "mealType": "lunch",
+    "calories": 0,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 0,
+    "dietaryRestrictions": [],
+    "description": "Chicken & Wild Rice Soup"
+  },
+  {
+    "id": "tomato-basil-soup@lunch@west-campus-dining-hall",
+    "name": "Tomato Basil Soup",
+    "hall": "West Campus Dining Hall",
+    "mealType": "lunch",
+    "calories": 0,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 0,
+    "dietaryRestrictions": [],
+    "description": "Tomato Basil Soup"
+  },
+  {
+    "id": "fried-plantains@lunch@west-campus-dining-hall",
+    "name": "Fried Plantains",
+    "hall": "West Campus Dining Hall",
+    "mealType": "lunch",
+    "calories": 270,
+    "protein": 2,
+    "carbs": 54,
+    "fat": 1,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Halal"
+    ],
+    "description": "Fried Plantains"
+  },
+  {
+    "id": "classic-cheese-pizza@lunch@west-campus-dining-hall",
+    "name": "Classic Cheese Pizza",
+    "hall": "West Campus Dining Hall",
+    "mealType": "lunch",
+    "calories": 250,
+    "protein": 12,
+    "carbs": 34,
+    "fat": 4,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Halal"
+    ],
+    "description": "Classic Cheese Pizza"
+  },
+  {
+    "id": "pepperoni-pizza@lunch@west-campus-dining-hall",
+    "name": "Pepperoni Pizza",
+    "hall": "West Campus Dining Hall",
+    "mealType": "lunch",
+    "calories": 275,
+    "protein": 13,
+    "carbs": 34,
+    "fat": 4,
+    "dietaryRestrictions": [
+      "Halal"
+    ],
+    "description": "Pepperoni Pizza"
+  },
+  {
+    "id": "sweet-potato-corn-flatbread@lunch@west-campus-dining-hall",
+    "name": "Sweet Potato & Corn Flatbread",
+    "hall": "West Campus Dining Hall",
+    "mealType": "lunch",
+    "calories": 330,
+    "protein": 14,
+    "carbs": 43,
+    "fat": 5,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Halal",
+      "Coolfood"
+    ],
+    "description": "Sweet Potato & Corn Flatbread"
+  },
+  {
+    "id": "mediterranean-pizza@lunch@west-campus-dining-hall",
+    "name": "Mediterranean Pizza",
+    "hall": "West Campus Dining Hall",
+    "mealType": "lunch",
+    "calories": 195,
+    "protein": 6,
+    "carbs": 33,
+    "fat": 1,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Halal"
+    ],
+    "description": "Mediterranean Pizza"
+  },
+  {
+    "id": "turkey-arugula-artichoke-pesto-wrap-sc@lunch@west-campus-dining-hall",
+    "name": "Turkey Arugula Artichoke & Pesto Wrap (Sc)",
+    "hall": "West Campus Dining Hall",
+    "mealType": "lunch",
+    "calories": 285,
+    "protein": 17,
+    "carbs": 38,
+    "fat": 1,
+    "dietaryRestrictions": [],
+    "description": "Turkey Arugula Artichoke & Pesto Wrap (Sc)"
+  },
+  {
+    "id": "turkey-bacon-ranch-wrap@lunch@west-campus-dining-hall",
+    "name": "Turkey Bacon Ranch Wrap",
+    "hall": "West Campus Dining Hall",
+    "mealType": "lunch",
+    "calories": 230,
+    "protein": 12,
+    "carbs": 33,
+    "fat": 3,
+    "dietaryRestrictions": [
+      "Coolfood"
+    ],
+    "description": "Turkey Bacon Ranch Wrap"
+  },
+  {
+    "id": "grilled-vegetable-hummus-wrap@lunch@west-campus-dining-hall",
+    "name": "Grilled Vegetable & Hummus Wrap",
+    "hall": "West Campus Dining Hall",
+    "mealType": "lunch",
+    "calories": 190,
+    "protein": 5,
+    "carbs": 26,
+    "fat": 1,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Halal",
+      "Coolfood"
+    ],
+    "description": "Grilled Vegetable & Hummus Wrap"
+  },
+  {
+    "id": "grilled-veggie-feta-ciabatta@lunch@west-campus-dining-hall",
+    "name": "Grilled Veggie & Feta Ciabatta",
+    "hall": "West Campus Dining Hall",
+    "mealType": "lunch",
+    "calories": 215,
+    "protein": 6,
+    "carbs": 31,
+    "fat": 2,
+    "dietaryRestrictions": [
+      "Coolfood"
+    ],
+    "description": "Grilled Veggie & Feta Ciabatta"
+  },
+  {
+    "id": "dijon-apple-ciabatta@lunch@west-campus-dining-hall",
+    "name": "Dijon Apple Ciabatta",
+    "hall": "West Campus Dining Hall",
+    "mealType": "lunch",
+    "calories": 380,
+    "protein": 8,
+    "carbs": 46,
+    "fat": 5,
+    "dietaryRestrictions": [],
+    "description": "Dijon Apple Ciabatta"
+  },
+  {
+    "id": "hummus-with-veggie-dippers@lunch@west-campus-dining-hall",
+    "name": "Hummus With Veggie Dippers",
+    "hall": "West Campus Dining Hall",
+    "mealType": "lunch",
+    "calories": 110,
+    "protein": 3,
+    "carbs": 10,
+    "fat": 1,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Halal"
+    ],
+    "description": "Hummus With Veggie Dippers"
+  },
+  {
+    "id": "apple-slices-with-sunbutter@lunch@west-campus-dining-hall",
+    "name": "Apple Slices With Sunbutter",
+    "hall": "West Campus Dining Hall",
+    "mealType": "lunch",
+    "calories": 260,
+    "protein": 7,
+    "carbs": 27,
+    "fat": 2,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Halal"
+    ],
+    "description": "Apple Slices With Sunbutter"
+  },
+  {
+    "id": "create-your-own-sandwich-station@lunch@west-campus-dining-hall",
+    "name": "Create Your Own Sandwich Station",
+    "hall": "West Campus Dining Hall",
+    "mealType": "lunch",
+    "calories": 165,
+    "protein": 4,
+    "carbs": 33,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Halal",
+      "Coolfood"
+    ],
+    "description": "Create Your Own Sandwich Station"
+  },
+  {
+    "id": "buffalo-chicken-sub@lunch@west-campus-dining-hall",
+    "name": "Buffalo Chicken Sub",
+    "hall": "West Campus Dining Hall",
+    "mealType": "lunch",
+    "calories": 195,
+    "protein": 16,
+    "carbs": 21,
+    "fat": 2,
+    "dietaryRestrictions": [
+      "Coolfood"
+    ],
+    "description": "Buffalo Chicken Sub"
+  },
+  {
+    "id": "cheeseburger@lunch@west-campus-dining-hall",
+    "name": "Cheeseburger",
+    "hall": "West Campus Dining Hall",
+    "mealType": "lunch",
+    "calories": 415,
+    "protein": 23,
+    "carbs": 31,
+    "fat": 10,
+    "dietaryRestrictions": [],
+    "description": "Cheeseburger"
+  },
+  {
+    "id": "local-homestyle-french-fries@lunch@west-campus-dining-hall",
+    "name": "Local Homestyle French Fries",
+    "hall": "West Campus Dining Hall",
+    "mealType": "lunch",
+    "calories": 150,
+    "protein": 2,
+    "carbs": 26,
+    "fat": 1,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Halal"
+    ],
+    "description": "Local Homestyle French Fries"
+  },
+  {
+    "id": "green-leaf-lettuce@lunch@west-campus-dining-hall",
+    "name": "Green Leaf Lettuce",
+    "hall": "West Campus Dining Hall",
+    "mealType": "lunch",
+    "calories": 15,
+    "protein": 2,
+    "carbs": 3,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Halal"
+    ],
+    "description": "Green Leaf Lettuce"
+  },
+  {
+    "id": "dill-pickle-slices@lunch@west-campus-dining-hall",
+    "name": "Dill Pickle Slices",
+    "hall": "West Campus Dining Hall",
+    "mealType": "lunch",
+    "calories": 5,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan"
+    ],
+    "description": "Dill Pickle Slices"
+  },
+  {
+    "id": "diced-red-onions@lunch@west-campus-dining-hall",
+    "name": "Diced Red Onions",
+    "hall": "West Campus Dining Hall",
+    "mealType": "lunch",
+    "calories": 85,
+    "protein": 2,
+    "carbs": 13,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Halal"
+    ],
+    "description": "Diced Red Onions"
+  },
+  {
+    "id": "sliced-tomatoes@lunch@west-campus-dining-hall",
+    "name": "Sliced Tomatoes",
+    "hall": "West Campus Dining Hall",
+    "mealType": "lunch",
+    "calories": 20,
+    "protein": 1,
+    "carbs": 4,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Halal"
+    ],
+    "description": "Sliced Tomatoes"
+  },
+  {
+    "id": "american-cheese@lunch@west-campus-dining-hall",
+    "name": "American Cheese",
+    "hall": "West Campus Dining Hall",
+    "mealType": "lunch",
+    "calories": 50,
+    "protein": 3,
+    "carbs": 1,
+    "fat": 3,
+    "dietaryRestrictions": [],
+    "description": "American Cheese"
+  },
+  {
+    "id": "french-toast-bar@lunch@west-campus-dining-hall",
+    "name": "French Toast Bar",
+    "hall": "West Campus Dining Hall",
+    "mealType": "lunch",
+    "calories": 210,
+    "protein": 10,
+    "carbs": 31,
+    "fat": 2,
+    "dietaryRestrictions": [
+      "Vegetarian"
+    ],
+    "description": "French Toast Bar"
+  },
+  {
+    "id": "cinnamon-raisin-brioche-french-toast@lunch@west-campus-dining-hall",
+    "name": "Cinnamon Raisin Brioche French Toast",
+    "hall": "West Campus Dining Hall",
+    "mealType": "lunch",
+    "calories": 570,
+    "protein": 23,
+    "carbs": 79,
+    "fat": 10,
+    "dietaryRestrictions": [
+      "Vegetarian"
+    ],
+    "description": "Cinnamon Raisin Brioche French Toast"
+  },
+  {
+    "id": "compote-strawberry@lunch@west-campus-dining-hall",
+    "name": "Compote Strawberry",
+    "hall": "West Campus Dining Hall",
+    "mealType": "lunch",
+    "calories": 20,
+    "protein": 0,
+    "carbs": 5,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Halal"
+    ],
+    "description": "Compote Strawberry"
+  },
+  {
+    "id": "apple-ginger-compote@lunch@west-campus-dining-hall",
+    "name": "Apple Ginger Compote",
+    "hall": "West Campus Dining Hall",
+    "mealType": "lunch",
+    "calories": 60,
+    "protein": 0,
+    "carbs": 15,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Halal"
+    ],
+    "description": "Apple Ginger Compote"
+  },
+  {
+    "id": "whipped-cream@lunch@west-campus-dining-hall",
+    "name": "Whipped Cream",
+    "hall": "West Campus Dining Hall",
+    "mealType": "lunch",
+    "calories": 50,
+    "protein": 0,
+    "carbs": 1,
+    "fat": 3,
+    "dietaryRestrictions": [
+      "Vegetarian"
+    ],
+    "description": "Whipped Cream"
+  },
+  {
+    "id": "create-your-own@lunch@west-campus-dining-hall",
+    "name": "Create Your Own",
+    "hall": "West Campus Dining Hall",
+    "mealType": "lunch",
+    "calories": 245,
+    "protein": 5,
+    "carbs": 28,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Halal"
+    ],
+    "description": "Create Your Own"
+  },
+  {
+    "id": "create-your-own-omelet-station@lunch@west-campus-dining-hall",
+    "name": "Create Your Own Omelet Station",
+    "hall": "West Campus Dining Hall",
+    "mealType": "lunch",
+    "calories": 35,
+    "protein": 3,
+    "carbs": 7,
+    "fat": 5,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Halal",
+      "Vegan"
+    ],
+    "description": "Create Your Own Omelet Station"
+  },
+  {
+    "id": "beef-hot-dog@lunch@west-campus-dining-hall",
+    "name": "Beef Hot Dog",
+    "hall": "West Campus Dining Hall",
+    "mealType": "lunch",
+    "calories": 175,
+    "protein": 6,
+    "carbs": 2,
+    "fat": 6,
+    "dietaryRestrictions": [
+      "Gluten-Free"
+    ],
+    "description": "Beef Hot Dog"
+  },
+  {
+    "id": "hoagie-roll@lunch@west-campus-dining-hall",
+    "name": "Hoagie Roll",
+    "hall": "West Campus Dining Hall",
+    "mealType": "lunch",
+    "calories": 375,
+    "protein": 2,
+    "carbs": 77,
+    "fat": 1,
+    "dietaryRestrictions": [
+      "Gluten-Free"
+    ],
+    "description": "Hoagie Roll"
+  },
+  {
+    "id": "ancho-beef-chili@lunch@west-campus-dining-hall",
+    "name": "Ancho Beef Chili",
+    "hall": "West Campus Dining Hall",
+    "mealType": "lunch",
+    "calories": 275,
+    "protein": 23,
+    "carbs": 29,
+    "fat": 2,
+    "dietaryRestrictions": [
+      "Gluten-Free"
+    ],
+    "description": "Ancho Beef Chili"
+  },
+  {
+    "id": "shredded-vegan-cheddar-cheese@lunch@west-campus-dining-hall",
+    "name": "Shredded Vegan Cheddar Cheese",
+    "hall": "West Campus Dining Hall",
+    "mealType": "lunch",
+    "calories": 360,
+    "protein": 2,
+    "carbs": 28,
+    "fat": 17,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten-Free",
+      "Halal"
+    ],
+    "description": "Shredded Vegan Cheddar Cheese"
+  },
+  {
+    "id": "diced-bacon@lunch@west-campus-dining-hall",
+    "name": "Diced Bacon",
+    "hall": "West Campus Dining Hall",
+    "mealType": "lunch",
+    "calories": 450,
+    "protein": 29,
+    "carbs": 3,
+    "fat": 13,
+    "dietaryRestrictions": [
+      "Gluten-Free"
+    ],
+    "description": "Diced Bacon"
+  },
+  {
+    "id": "spicy-vegetable-gumbo@lunch@west-campus-dining-hall",
+    "name": "Spicy Vegetable Gumbo",
+    "hall": "West Campus Dining Hall",
+    "mealType": "lunch",
+    "calories": 40,
+    "protein": 1,
+    "carbs": 7,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Coolfood"
+    ],
+    "description": "Spicy Vegetable Gumbo"
+  },
+  {
+    "id": "pita-bread@lunch@west-campus-dining-hall",
+    "name": "Pita Bread",
+    "hall": "West Campus Dining Hall",
+    "mealType": "lunch",
+    "calories": 210,
+    "protein": 7,
+    "carbs": 41,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Halal"
+    ],
+    "description": "Pita Bread"
+  },
+  {
+    "id": "lemon-grilled-chicken-breast@lunch@west-campus-dining-hall",
+    "name": "Lemon Grilled Chicken Breast",
+    "hall": "West Campus Dining Hall",
+    "mealType": "lunch",
+    "calories": 145,
+    "protein": 26,
+    "carbs": 0,
+    "fat": 1,
+    "dietaryRestrictions": [
+      "Halal"
+    ],
+    "description": "Lemon Grilled Chicken Breast"
+  },
+  {
+    "id": "baked-falafel@lunch@west-campus-dining-hall",
+    "name": "Baked Falafel",
+    "hall": "West Campus Dining Hall",
+    "mealType": "lunch",
+    "calories": 45,
+    "protein": 2,
+    "carbs": 8,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Halal"
+    ],
+    "description": "Baked Falafel"
+  },
+  {
+    "id": "tzatziki-sauce@lunch@west-campus-dining-hall",
+    "name": "Tzatziki Sauce",
+    "hall": "West Campus Dining Hall",
+    "mealType": "lunch",
+    "calories": 60,
+    "protein": 3,
+    "carbs": 3,
+    "fat": 2,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Halal"
+    ],
+    "description": "Tzatziki Sauce"
+  },
+  {
+    "id": "hummus@lunch@west-campus-dining-hall",
+    "name": "Hummus",
+    "hall": "West Campus Dining Hall",
+    "mealType": "lunch",
+    "calories": 245,
+    "protein": 6,
+    "carbs": 14,
+    "fat": 2,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Halal"
+    ],
+    "description": "Hummus"
+  },
+  {
+    "id": "diced-tomatoes@lunch@west-campus-dining-hall",
+    "name": "Diced Tomatoes",
+    "hall": "West Campus Dining Hall",
+    "mealType": "lunch",
+    "calories": 20,
+    "protein": 1,
+    "carbs": 4,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Halal"
+    ],
+    "description": "Diced Tomatoes"
+  },
+  {
+    "id": "diced-cucumber@lunch@west-campus-dining-hall",
+    "name": "Diced Cucumber",
+    "hall": "West Campus Dining Hall",
+    "mealType": "lunch",
+    "calories": 15,
+    "protein": 1,
+    "carbs": 4,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Halal"
+    ],
+    "description": "Diced Cucumber"
+  },
+  {
+    "id": "romaine-lettuce@lunch@west-campus-dining-hall",
+    "name": "Romaine Lettuce",
+    "hall": "West Campus Dining Hall",
+    "mealType": "lunch",
+    "calories": 20,
+    "protein": 1,
+    "carbs": 4,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Halal"
+    ],
+    "description": "Romaine Lettuce"
+  },
+  {
+    "id": "crispy-homestyle-french-fries@lunch@west-campus-dining-hall",
+    "name": "Crispy Homestyle French Fries",
+    "hall": "West Campus Dining Hall",
+    "mealType": "lunch",
+    "calories": 120,
+    "protein": 1,
+    "carbs": 21,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Halal"
+    ],
+    "description": "Crispy Homestyle French Fries"
+  },
+  {
+    "id": "assorted-cookies@lunch@west-campus-dining-hall",
+    "name": "Assorted Cookies",
+    "hall": "West Campus Dining Hall",
+    "mealType": "lunch",
+    "calories": 95,
+    "protein": 1,
+    "carbs": 14,
+    "fat": 2,
+    "dietaryRestrictions": [],
+    "description": "Assorted Cookies"
+  },
+  {
+    "id": "devil-s-food-cupcake@lunch@west-campus-dining-hall",
+    "name": "Devil's Food Cupcake",
+    "hall": "West Campus Dining Hall",
+    "mealType": "lunch",
+    "calories": 0,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Halal"
+    ],
+    "description": "Devil's Food Cupcake"
+  },
+  {
+    "id": "cherry-blueberry-crisp@lunch@west-campus-dining-hall",
+    "name": "Cherry-Blueberry Crisp",
+    "hall": "West Campus Dining Hall",
+    "mealType": "lunch",
+    "calories": 155,
+    "protein": 1,
+    "carbs": 27,
+    "fat": 1,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Halal"
+    ],
+    "description": "Cherry-Blueberry Crisp"
+  },
+  {
+    "id": "vegan-chai-latte-cake@lunch@west-campus-dining-hall",
+    "name": "Vegan Chai Latte Cake",
+    "hall": "West Campus Dining Hall",
+    "mealType": "lunch",
+    "calories": 235,
+    "protein": 2,
+    "carbs": 43,
+    "fat": 1,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan"
+    ],
+    "description": "Vegan Chai Latte Cake"
+  },
+  {
+    "id": "chicken-wild-rice-soup@dinner@west-campus-dining-hall",
+    "name": "Chicken & Wild Rice Soup",
+    "hall": "West Campus Dining Hall",
+    "mealType": "dinner",
+    "calories": 0,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 0,
+    "dietaryRestrictions": [],
+    "description": "Chicken & Wild Rice Soup"
+  },
+  {
+    "id": "tomato-basil-soup@dinner@west-campus-dining-hall",
+    "name": "Tomato Basil Soup",
+    "hall": "West Campus Dining Hall",
+    "mealType": "dinner",
+    "calories": 0,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 0,
+    "dietaryRestrictions": [],
+    "description": "Tomato Basil Soup"
+  },
+  {
+    "id": "classic-cheese-pizza@dinner@west-campus-dining-hall",
+    "name": "Classic Cheese Pizza",
+    "hall": "West Campus Dining Hall",
+    "mealType": "dinner",
+    "calories": 250,
+    "protein": 12,
+    "carbs": 34,
+    "fat": 4,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Halal"
+    ],
+    "description": "Classic Cheese Pizza"
+  },
+  {
+    "id": "pepperoni-pizza@dinner@west-campus-dining-hall",
+    "name": "Pepperoni Pizza",
+    "hall": "West Campus Dining Hall",
+    "mealType": "dinner",
+    "calories": 275,
+    "protein": 13,
+    "carbs": 34,
+    "fat": 4,
+    "dietaryRestrictions": [
+      "Halal"
+    ],
+    "description": "Pepperoni Pizza"
+  },
+  {
+    "id": "sweet-potato-corn-flatbread@dinner@west-campus-dining-hall",
+    "name": "Sweet Potato & Corn Flatbread",
+    "hall": "West Campus Dining Hall",
+    "mealType": "dinner",
+    "calories": 330,
+    "protein": 14,
+    "carbs": 43,
+    "fat": 5,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Halal",
+      "Coolfood"
+    ],
+    "description": "Sweet Potato & Corn Flatbread"
+  },
+  {
+    "id": "mediterranean-pizza@dinner@west-campus-dining-hall",
+    "name": "Mediterranean Pizza",
+    "hall": "West Campus Dining Hall",
+    "mealType": "dinner",
+    "calories": 195,
+    "protein": 6,
+    "carbs": 33,
+    "fat": 1,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Halal"
+    ],
+    "description": "Mediterranean Pizza"
+  },
+  {
+    "id": "turkey-arugula-artichoke-pesto-wrap-sc@dinner@west-campus-dining-hall",
+    "name": "Turkey Arugula Artichoke & Pesto Wrap (Sc)",
+    "hall": "West Campus Dining Hall",
+    "mealType": "dinner",
+    "calories": 285,
+    "protein": 17,
+    "carbs": 38,
+    "fat": 1,
+    "dietaryRestrictions": [],
+    "description": "Turkey Arugula Artichoke & Pesto Wrap (Sc)"
+  },
+  {
+    "id": "turkey-bacon-ranch-wrap@dinner@west-campus-dining-hall",
+    "name": "Turkey Bacon Ranch Wrap",
+    "hall": "West Campus Dining Hall",
+    "mealType": "dinner",
+    "calories": 230,
+    "protein": 12,
+    "carbs": 33,
+    "fat": 3,
+    "dietaryRestrictions": [
+      "Coolfood"
+    ],
+    "description": "Turkey Bacon Ranch Wrap"
+  },
+  {
+    "id": "grilled-vegetable-hummus-wrap@dinner@west-campus-dining-hall",
+    "name": "Grilled Vegetable & Hummus Wrap",
+    "hall": "West Campus Dining Hall",
+    "mealType": "dinner",
+    "calories": 190,
+    "protein": 5,
+    "carbs": 26,
+    "fat": 1,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Halal",
+      "Coolfood"
+    ],
+    "description": "Grilled Vegetable & Hummus Wrap"
+  },
+  {
+    "id": "grilled-veggie-feta-ciabatta@dinner@west-campus-dining-hall",
+    "name": "Grilled Veggie & Feta Ciabatta",
+    "hall": "West Campus Dining Hall",
+    "mealType": "dinner",
+    "calories": 215,
+    "protein": 6,
+    "carbs": 31,
+    "fat": 2,
+    "dietaryRestrictions": [
+      "Coolfood"
+    ],
+    "description": "Grilled Veggie & Feta Ciabatta"
+  },
+  {
+    "id": "dijon-apple-ciabatta@dinner@west-campus-dining-hall",
+    "name": "Dijon Apple Ciabatta",
+    "hall": "West Campus Dining Hall",
+    "mealType": "dinner",
+    "calories": 380,
+    "protein": 8,
+    "carbs": 46,
+    "fat": 5,
+    "dietaryRestrictions": [],
+    "description": "Dijon Apple Ciabatta"
+  },
+  {
+    "id": "hummus-with-veggie-dippers@dinner@west-campus-dining-hall",
+    "name": "Hummus With Veggie Dippers",
+    "hall": "West Campus Dining Hall",
+    "mealType": "dinner",
+    "calories": 110,
+    "protein": 3,
+    "carbs": 10,
+    "fat": 1,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Halal"
+    ],
+    "description": "Hummus With Veggie Dippers"
+  },
+  {
+    "id": "apple-slices-with-sunbutter@dinner@west-campus-dining-hall",
+    "name": "Apple Slices With Sunbutter",
+    "hall": "West Campus Dining Hall",
+    "mealType": "dinner",
+    "calories": 260,
+    "protein": 7,
+    "carbs": 27,
+    "fat": 2,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Halal"
+    ],
+    "description": "Apple Slices With Sunbutter"
+  },
+  {
+    "id": "create-your-own-sandwich-station@dinner@west-campus-dining-hall",
+    "name": "Create Your Own Sandwich Station",
+    "hall": "West Campus Dining Hall",
+    "mealType": "dinner",
+    "calories": 165,
+    "protein": 4,
+    "carbs": 33,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Halal",
+      "Coolfood"
+    ],
+    "description": "Create Your Own Sandwich Station"
+  },
+  {
+    "id": "classic-grilled-cheese@dinner@west-campus-dining-hall",
+    "name": "Classic Grilled Cheese",
+    "hall": "West Campus Dining Hall",
+    "mealType": "dinner",
+    "calories": 315,
+    "protein": 10,
+    "carbs": 27,
+    "fat": 10,
+    "dietaryRestrictions": [
+      "Halal"
+    ],
+    "description": "Classic Grilled Cheese"
+  },
+  {
+    "id": "cheeseburger@dinner@west-campus-dining-hall",
+    "name": "Cheeseburger",
+    "hall": "West Campus Dining Hall",
+    "mealType": "dinner",
+    "calories": 415,
+    "protein": 23,
+    "carbs": 31,
+    "fat": 10,
+    "dietaryRestrictions": [],
+    "description": "Cheeseburger"
+  },
+  {
+    "id": "maple-cajun-dry-rub@dinner@west-campus-dining-hall",
+    "name": "Maple Cajun Dry Rub",
+    "hall": "West Campus Dining Hall",
+    "mealType": "dinner",
+    "calories": 45,
+    "protein": 1,
+    "carbs": 10,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Halal"
+    ],
+    "description": "Maple Cajun Dry Rub"
+  },
+  {
+    "id": "grilled-herbed-chicken-drumstick@dinner@west-campus-dining-hall",
+    "name": "Grilled Herbed Chicken Drumstick",
+    "hall": "West Campus Dining Hall",
+    "mealType": "dinner",
+    "calories": 210,
+    "protein": 23,
+    "carbs": 0,
+    "fat": 3,
+    "dietaryRestrictions": [],
+    "description": "Grilled Herbed Chicken Drumstick"
+  },
+  {
+    "id": "local-homestyle-french-fries@dinner@west-campus-dining-hall",
+    "name": "Local Homestyle French Fries",
+    "hall": "West Campus Dining Hall",
+    "mealType": "dinner",
+    "calories": 150,
+    "protein": 2,
+    "carbs": 26,
+    "fat": 1,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Halal"
+    ],
+    "description": "Local Homestyle French Fries"
+  },
+  {
+    "id": "green-leaf-lettuce@dinner@west-campus-dining-hall",
+    "name": "Green Leaf Lettuce",
+    "hall": "West Campus Dining Hall",
+    "mealType": "dinner",
+    "calories": 15,
+    "protein": 2,
+    "carbs": 3,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Halal"
+    ],
+    "description": "Green Leaf Lettuce"
+  },
+  {
+    "id": "dill-pickle-slices@dinner@west-campus-dining-hall",
+    "name": "Dill Pickle Slices",
+    "hall": "West Campus Dining Hall",
+    "mealType": "dinner",
+    "calories": 5,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan"
+    ],
+    "description": "Dill Pickle Slices"
+  },
+  {
+    "id": "diced-red-onions@dinner@west-campus-dining-hall",
+    "name": "Diced Red Onions",
+    "hall": "West Campus Dining Hall",
+    "mealType": "dinner",
+    "calories": 85,
+    "protein": 2,
+    "carbs": 13,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Halal"
+    ],
+    "description": "Diced Red Onions"
+  },
+  {
+    "id": "sliced-tomatoes@dinner@west-campus-dining-hall",
+    "name": "Sliced Tomatoes",
+    "hall": "West Campus Dining Hall",
+    "mealType": "dinner",
+    "calories": 20,
+    "protein": 1,
+    "carbs": 4,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Halal"
+    ],
+    "description": "Sliced Tomatoes"
+  },
+  {
+    "id": "american-cheese@dinner@west-campus-dining-hall",
+    "name": "American Cheese",
+    "hall": "West Campus Dining Hall",
+    "mealType": "dinner",
+    "calories": 50,
+    "protein": 3,
+    "carbs": 1,
+    "fat": 3,
+    "dietaryRestrictions": [],
+    "description": "American Cheese"
+  },
+  {
+    "id": "create-your-own@dinner@west-campus-dining-hall",
+    "name": "Create Your Own",
+    "hall": "West Campus Dining Hall",
+    "mealType": "dinner",
+    "calories": 245,
+    "protein": 5,
+    "carbs": 28,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Halal"
+    ],
+    "description": "Create Your Own"
+  },
+  {
+    "id": "create-you-own-pasta-station@dinner@west-campus-dining-hall",
+    "name": "Create You Own Pasta Station",
+    "hall": "West Campus Dining Hall",
+    "mealType": "dinner",
+    "calories": 380,
+    "protein": 11,
+    "carbs": 52,
+    "fat": 7,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Halal"
+    ],
+    "description": "Create You Own Pasta Station"
+  },
+  {
+    "id": "penne@dinner@west-campus-dining-hall",
+    "name": "Penne",
+    "hall": "West Campus Dining Hall",
+    "mealType": "dinner",
+    "calories": 95,
+    "protein": 4,
+    "carbs": 20,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Halal"
+    ],
+    "description": "Penne"
+  },
+  {
+    "id": "elbow-macaroni@dinner@west-campus-dining-hall",
+    "name": "Elbow Macaroni",
+    "hall": "West Campus Dining Hall",
+    "mealType": "dinner",
+    "calories": 105,
+    "protein": 4,
+    "carbs": 22,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Halal"
+    ],
+    "description": "Elbow Macaroni"
+  },
+  {
+    "id": "basil-pesto@dinner@west-campus-dining-hall",
+    "name": "Basil Pesto",
+    "hall": "West Campus Dining Hall",
+    "mealType": "dinner",
+    "calories": 95,
+    "protein": 2,
+    "carbs": 1,
+    "fat": 1,
+    "dietaryRestrictions": [],
+    "description": "Basil Pesto"
+  },
+  {
+    "id": "cajun-cream-sauce@dinner@west-campus-dining-hall",
+    "name": "Cajun Cream Sauce",
+    "hall": "West Campus Dining Hall",
+    "mealType": "dinner",
+    "calories": 210,
+    "protein": 0,
+    "carbs": 5,
+    "fat": 14,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Halal"
+    ],
+    "description": "Cajun Cream Sauce"
+  },
+  {
+    "id": "broccoli@dinner@west-campus-dining-hall",
+    "name": "Broccoli",
+    "hall": "West Campus Dining Hall",
+    "mealType": "dinner",
+    "calories": 35,
+    "protein": 3,
+    "carbs": 7,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Halal"
+    ],
+    "description": "Broccoli"
+  },
+  {
+    "id": "corn@dinner@west-campus-dining-hall",
+    "name": "Corn",
+    "hall": "West Campus Dining Hall",
+    "mealType": "dinner",
+    "calories": 100,
+    "protein": 3,
+    "carbs": 23,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Halal"
+    ],
+    "description": "Corn"
+  },
+  {
+    "id": "sliced-mushrooms@dinner@west-campus-dining-hall",
+    "name": "Sliced Mushrooms",
+    "hall": "West Campus Dining Hall",
+    "mealType": "dinner",
+    "calories": 25,
+    "protein": 4,
+    "carbs": 4,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Halal"
+    ],
+    "description": "Sliced Mushrooms"
+  },
+  {
+    "id": "green-peas@dinner@west-campus-dining-hall",
+    "name": "Green Peas",
+    "hall": "West Campus Dining Hall",
+    "mealType": "dinner",
+    "calories": 85,
+    "protein": 6,
+    "carbs": 15,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Halal"
+    ],
+    "description": "Green Peas"
+  },
+  {
+    "id": "shredded-carrots@dinner@west-campus-dining-hall",
+    "name": "Shredded Carrots",
+    "hall": "West Campus Dining Hall",
+    "mealType": "dinner",
+    "calories": 45,
+    "protein": 1,
+    "carbs": 11,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Halal"
+    ],
+    "description": "Shredded Carrots"
+  },
+  {
+    "id": "diced-chicken@dinner@west-campus-dining-hall",
+    "name": "Diced Chicken",
+    "hall": "West Campus Dining Hall",
+    "mealType": "dinner",
+    "calories": 140,
+    "protein": 24,
+    "carbs": 0,
+    "fat": 1,
+    "dietaryRestrictions": [
+      "Halal"
+    ],
+    "description": "Diced Chicken"
+  },
+  {
+    "id": "tofu@dinner@west-campus-dining-hall",
+    "name": "Tofu",
+    "hall": "West Campus Dining Hall",
+    "mealType": "dinner",
+    "calories": 165,
+    "protein": 17,
+    "carbs": 3,
+    "fat": 2,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Halal"
+    ],
+    "description": "Tofu"
+  },
+  {
+    "id": "penne-pasta@dinner@west-campus-dining-hall",
+    "name": "Penne Pasta",
+    "hall": "West Campus Dining Hall",
+    "mealType": "dinner",
+    "calories": 100,
+    "protein": 2,
+    "carbs": 22,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten-Free",
+      "Halal"
+    ],
+    "description": "Penne Pasta"
+  },
+  {
+    "id": "marinara-sauce@dinner@west-campus-dining-hall",
+    "name": "Marinara Sauce",
+    "hall": "West Campus Dining Hall",
+    "mealType": "dinner",
+    "calories": 95,
+    "protein": 1,
+    "carbs": 8,
+    "fat": 1,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten-Free",
+      "Halal"
+    ],
+    "description": "Marinara Sauce"
+  },
+  {
+    "id": "lemon-garlic-vegetable-broth@dinner@west-campus-dining-hall",
+    "name": "Lemon-Garlic Vegetable Broth",
+    "hall": "West Campus Dining Hall",
+    "mealType": "dinner",
+    "calories": 25,
+    "protein": 0,
+    "carbs": 5,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten-Free"
+    ],
+    "description": "Lemon-Garlic Vegetable Broth"
+  },
+  {
+    "id": "diced-tomatoes@dinner@west-campus-dining-hall",
+    "name": "Diced Tomatoes",
+    "hall": "West Campus Dining Hall",
+    "mealType": "dinner",
+    "calories": 20,
+    "protein": 1,
+    "carbs": 4,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten-Free",
+      "Halal"
+    ],
+    "description": "Diced Tomatoes"
+  },
+  {
+    "id": "sauteed-mushrooms@dinner@west-campus-dining-hall",
+    "name": "Sauteed Mushrooms",
+    "hall": "West Campus Dining Hall",
+    "mealType": "dinner",
+    "calories": 40,
+    "protein": 2,
+    "carbs": 2,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten-Free",
+      "Halal"
+    ],
+    "description": "Sauteed Mushrooms"
+  },
+  {
+    "id": "steamed-spinach@dinner@west-campus-dining-hall",
+    "name": "Steamed Spinach",
+    "hall": "West Campus Dining Hall",
+    "mealType": "dinner",
+    "calories": 20,
+    "protein": 2,
+    "carbs": 3,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten-Free",
+      "Halal"
+    ],
+    "description": "Steamed Spinach"
+  },
+  {
+    "id": "fresh-parsley@dinner@west-campus-dining-hall",
+    "name": "Fresh Parsley",
+    "hall": "West Campus Dining Hall",
+    "mealType": "dinner",
+    "calories": 5,
+    "protein": 0,
+    "carbs": 1,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten-Free",
+      "Halal"
+    ],
+    "description": "Fresh Parsley"
+  },
+  {
+    "id": "balsamic-vinaigrette@dinner@west-campus-dining-hall",
+    "name": "Balsamic Vinaigrette",
+    "hall": "West Campus Dining Hall",
+    "mealType": "dinner",
+    "calories": 60,
+    "protein": 0,
+    "carbs": 5,
+    "fat": 1,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten-Free"
+    ],
+    "description": "Balsamic Vinaigrette"
+  },
+  {
+    "id": "lite-italian-dressing@dinner@west-campus-dining-hall",
+    "name": "Lite Italian Dressing",
+    "hall": "West Campus Dining Hall",
+    "mealType": "dinner",
+    "calories": 40,
+    "protein": 0,
+    "carbs": 2,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten-Free"
+    ],
+    "description": "Lite Italian Dressing"
+  },
+  {
+    "id": "chicken-rice-soup-florentine@dinner@west-campus-dining-hall",
+    "name": "Chicken & Rice Soup Florentine",
+    "hall": "West Campus Dining Hall",
+    "mealType": "dinner",
+    "calories": 70,
+    "protein": 5,
+    "carbs": 9,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Gluten-Free",
+      "Coolfood"
+    ],
+    "description": "Chicken & Rice Soup Florentine"
+  },
+  {
+    "id": "lemon-blueberry-cupcake@dinner@west-campus-dining-hall",
+    "name": "Lemon Blueberry Cupcake",
+    "hall": "West Campus Dining Hall",
+    "mealType": "dinner",
+    "calories": 165,
+    "protein": 1,
+    "carbs": 17,
+    "fat": 1,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten-Free"
+    ],
+    "description": "Lemon Blueberry Cupcake"
+  },
+  {
+    "id": "cauliflower-lentil-curry@dinner@west-campus-dining-hall",
+    "name": "Cauliflower Lentil Curry",
+    "hall": "West Campus Dining Hall",
+    "mealType": "dinner",
+    "calories": 470,
+    "protein": 26,
+    "carbs": 69,
+    "fat": 6,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Coolfood"
+    ],
+    "description": "Cauliflower Lentil Curry"
+  },
+  {
+    "id": "brown-rice@dinner@west-campus-dining-hall",
+    "name": "Brown Rice",
+    "hall": "West Campus Dining Hall",
+    "mealType": "dinner",
+    "calories": 105,
+    "protein": 2,
+    "carbs": 22,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Halal"
+    ],
+    "description": "Brown Rice"
+  },
+  {
+    "id": "pita-bread@dinner@west-campus-dining-hall",
+    "name": "Pita Bread",
+    "hall": "West Campus Dining Hall",
+    "mealType": "dinner",
+    "calories": 210,
+    "protein": 7,
+    "carbs": 41,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Halal"
+    ],
+    "description": "Pita Bread"
+  },
+  {
+    "id": "tzatziki-sauce@dinner@west-campus-dining-hall",
+    "name": "Tzatziki Sauce",
+    "hall": "West Campus Dining Hall",
+    "mealType": "dinner",
+    "calories": 60,
+    "protein": 3,
+    "carbs": 3,
+    "fat": 2,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Halal"
+    ],
+    "description": "Tzatziki Sauce"
+  },
+  {
+    "id": "romaine-lettuce@dinner@west-campus-dining-hall",
+    "name": "Romaine Lettuce",
+    "hall": "West Campus Dining Hall",
+    "mealType": "dinner",
+    "calories": 20,
+    "protein": 1,
+    "carbs": 4,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Halal"
+    ],
+    "description": "Romaine Lettuce"
+  },
+  {
+    "id": "crispy-homestyle-french-fries@dinner@west-campus-dining-hall",
+    "name": "Crispy Homestyle French Fries",
+    "hall": "West Campus Dining Hall",
+    "mealType": "dinner",
+    "calories": 120,
+    "protein": 1,
+    "carbs": 21,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Halal"
+    ],
+    "description": "Crispy Homestyle French Fries"
+  },
+  {
+    "id": "diced-cucumber@dinner@west-campus-dining-hall",
+    "name": "Diced Cucumber",
+    "hall": "West Campus Dining Hall",
+    "mealType": "dinner",
+    "calories": 15,
+    "protein": 1,
+    "carbs": 4,
+    "fat": 0,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Halal"
+    ],
+    "description": "Diced Cucumber"
+  },
+  {
+    "id": "assorted-cookies@dinner@west-campus-dining-hall",
+    "name": "Assorted Cookies",
+    "hall": "West Campus Dining Hall",
+    "mealType": "dinner",
+    "calories": 95,
+    "protein": 1,
+    "carbs": 14,
+    "fat": 2,
+    "dietaryRestrictions": [],
+    "description": "Assorted Cookies"
+  },
+  {
+    "id": "cherry-cobbler-bread@dinner@west-campus-dining-hall",
+    "name": "Cherry Cobbler Bread",
+    "hall": "West Campus Dining Hall",
+    "mealType": "dinner",
+    "calories": 285,
+    "protein": 3,
+    "carbs": 47,
+    "fat": 5,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Halal"
+    ],
+    "description": "Cherry Cobbler Bread"
+  },
+  {
+    "id": "red-velvet-cream-cheese-bar@dinner@west-campus-dining-hall",
+    "name": "Red Velvet Cream Cheese Bar",
+    "hall": "West Campus Dining Hall",
+    "mealType": "dinner",
+    "calories": 275,
+    "protein": 4,
+    "carbs": 31,
+    "fat": 8,
+    "dietaryRestrictions": [
+      "Vegetarian"
+    ],
+    "description": "Red Velvet Cream Cheese Bar"
+  },
+  {
+    "id": "vegan-snickerdoodle@dinner@west-campus-dining-hall",
+    "name": "Vegan Snickerdoodle",
+    "hall": "West Campus Dining Hall",
+    "mealType": "dinner",
+    "calories": 120,
+    "protein": 2,
+    "carbs": 22,
+    "fat": 1,
+    "dietaryRestrictions": [
+      "Vegetarian",
+      "Vegan"
+    ],
+    "description": "Vegan Snickerdoodle"
+  }
+]

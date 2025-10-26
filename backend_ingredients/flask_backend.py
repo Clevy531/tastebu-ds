@@ -2,7 +2,8 @@
 # -*- coding: utf-8 -*-
 from restricted_ingredients import return_restricted_ingredients
 from flask import Flask, request, jsonify
-from flask_cors import CORS  # Add this import
+from flask_cors import CORS
+import socket
 
 def is_food_safe(food_info, restricted_ingredients_lower):
     """Check if food is safe based on restricted ingredients."""
@@ -19,7 +20,7 @@ def is_food_safe(food_info, restricted_ingredients_lower):
     return True
 
 app = Flask(__name__)
-CORS(app)  # Add this line - enables CORS for all routes
+CORS(app)  # Enable CORS for all routes
 
 @app.route("/filter_foods", methods=["POST"])
 def filter_foods():
@@ -103,5 +104,29 @@ def filter_foods():
         print(f"❌ Error processing request: {str(e)}")
         return jsonify({"error": "Internal server error", "details": str(e)}), 500
 
+def get_local_ip():
+    """Get the local IP address of this machine"""
+    try:
+        # Create a socket and connect to an external address (doesn't actually send data)
+        s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+        s.connect(("8.8.8.8", 80))
+        local_ip = s.getsockname()[0]
+        s.close()
+        return local_ip
+    except Exception:
+        return "127.0.0.1"
+
 if __name__ == "__main__":
-    app.run(debug=True, host='0.0.0.0', port=5000)
+    local_ip = get_local_ip()
+    port = 5001
+    
+    print("\n" + "="*60)
+    print("🚀 Flask Backend Starting...")
+    print("="*60)
+    print(f"📍 Local access:   http://127.0.0.1:{port}")
+    print(f"🌐 Network access: http://{local_ip}:{port}")
+    print("="*60)
+    print("💡 Use the Network URL to access from other devices")
+    print("="*60 + "\n")
+    
+    app.run(debug=True, host='0.0.0.0', port=port)

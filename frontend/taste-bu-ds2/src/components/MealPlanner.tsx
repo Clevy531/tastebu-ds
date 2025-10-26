@@ -1,10 +1,9 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
-import { ChevronLeft } from "lucide-react";
+import { ChevronLeft, AlertCircle } from "lucide-react";
 import logo from "@/assets/taste-logo.png";
-import mealsData from "@/data/meals.json";
 
 interface MealPlannerProps {
     allergens: string[];
@@ -27,49 +26,60 @@ interface Meal {
     ingredients: string[];
 }
 
-const mockMeals: Meal[] = mealsData as Meal[];
-
 const MealPlanner = ({ allergens, dietaryPrefs, onBack }: MealPlannerProps) => {
+    const [meals, setMeals] = useState<Meal[]>([]);
     const [selectedMeal, setSelectedMeal] = useState<Meal | null>(null);
+    const [loading, setLoading] = useState(false);
+    const [error, setError] = useState<string | null>(null);
+
+    // Fetch meals from Flask backend
+    const fetchMeals = async () => {
+        setLoading(true);
+        setError(null);
+        
+        try {
+            const response = await fetch("http://127.0.0.1:5001/filter_foods", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ 
+                    allergies: allergens, 
+                    dietary_restrictions: dietaryPrefs 
+                })
+            });
+
+            if (!response.ok) {
+                throw new Error(`Backend error: ${response.status}`);
+            }
+
+            const data = await response.json();
+            console.log("Backend response:", data);
+
+            // Handle the backend response structure
+            let safeMeals: Meal[] = [];
+            if (data.safe_foods) {
+                // New backend format: {safe_foods: [...], total_filtered: ..., restricted_ingredients: [...]}
+                safeMeals = data.safe_foods;
+            } else if (Array.isArray(data)) {
+                // Old backend format: direct array
+                safeMeals = data;
+            }
+
+            setMeals(safeMeals);
+        } catch (error) {
+            console.error("Error fetching meals:", error);
+            setError(error instanceof Error ? error.message : "Failed to fetch meals");
+        } finally {
+            setLoading(false);
+        }
+    };
+
+    // Refetch meals whenever allergies or dietary preferences change
+    useEffect(() => {
+        fetchMeals();
+    }, [allergens, dietaryPrefs]);
 
     const filterMeals = (mealType: "breakfast" | "lunch" | "dinner") => {
-        return mockMeals.filter(meal => {
-            if (meal.mealType !== mealType) return false;
-
-            // Allergens filter
-            if (allergens.length > 0) {
-                const hasAllergen = meal.allergens.some(a =>
-                    allergens.some(userAllergen =>
-                        a.toLowerCase().includes(userAllergen.toLowerCase())
-                    )
-                );
-                if (hasAllergen) return false;
-            }
-
-            // Dietary preferences filter
-            if (dietaryPrefs.length > 0) {
-                for (let pref of dietaryPrefs) {
-                    const mealTags = meal.dietaryRestrictions.map(t => t.toLowerCase());
-                    pref = pref.toLowerCase();
-
-                    if (pref === "vegan" || pref === "vegetarian") {
-                        // Must explicitly include the tag
-                        if (!mealTags.includes(pref)) return false;
-                    } else if (pref === "pescatarian") {
-                        // Show if meal is pescatarian OR does not contain meat
-                        const nonPescatarianMeat = ["beef", "chicken", "pork", "lamb"];
-                        const ingredientsLower = meal.ingredients.map(i => i.toLowerCase());
-                        const hasMeat = ingredientsLower.some(i => nonPescatarianMeat.includes(i));
-                        if (!mealTags.includes(pref) && hasMeat) return false;
-                    } else {
-                        // Optional diets like Gluten-Free, Low-Carb
-                        if (!mealTags.includes(pref)) return false;
-                    }
-                }
-            }
-
-            return true;
-        });
+        return meals.filter(meal => meal.mealType === mealType);
     };
 
     const MealCard = ({ meal }: { meal: Meal }) => (
@@ -85,7 +95,7 @@ const MealPlanner = ({ allergens, dietaryPrefs, onBack }: MealPlannerProps) => {
                 <span>{meal.carbs}g carbs</span>
                 <span>{meal.fat}g fat</span>
             </div>
-            {meal.dietaryRestrictions.length > 0 && (
+            {meal.dietaryRestrictions && meal.dietaryRestrictions.length > 0 && (
                 <div className="flex flex-wrap gap-1 mt-2">
                     {meal.dietaryRestrictions.map(tag => (
                         <span
@@ -116,33 +126,68 @@ const MealPlanner = ({ allergens, dietaryPrefs, onBack }: MealPlannerProps) => {
             </header>
 
             <div className="container mx-auto p-6 max-w-6xl">
-                {["breakfast", "lunch", "dinner"].map(mealType => (
-                    <section key={mealType} className="mb-10">
-                        <h2 className="text-2xl font-bold text-foreground mb-4">
-                            {mealType.charAt(0).toUpperCase() + mealType.slice(1)}
-                        </h2>
-                        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
-                            {filterMeals(mealType as "breakfast" | "lunch" | "dinner").length > 0 ? (
-                                filterMeals(mealType as "breakfast" | "lunch" | "dinner").map(meal => (
-                                    <MealCard key={meal.id} meal={meal} />
-                                ))
-                            ) : (
-                                <p className="text-muted-foreground col-span-full">
-                                    No meals match your preferences
-                                </p>
-                            )}
+                {/* Error state */}
+                {error && (
+                    <div className="bg-destructive/10 border border-destructive/20 rounded-lg p-4 mb-6 flex items-center gap-3">
+                        <AlertCircle className="text-destructive" size={20} />
+                        <div>
+                            <p className="text-destructive font-semibold">Error loading meals</p>
+                            <p className="text-sm text-muted-foreground">{error}</p>
+                            <p className="text-sm text-muted-foreground mt-1">
+                                Make sure your Flask backend is running on port 5001
+                            </p>
+                            <Button 
+                                onClick={fetchMeals} 
+                                variant="outline" 
+                                size="sm" 
+                                className="mt-2"
+                            >
+                                Retry
+                            </Button>
                         </div>
-                    </section>
-                ))}
+                    </div>
+                )}
 
-                <Button
-                    onClick={onBack}
-                    variant="outline"
-                    className="border-border hover:bg-muted"
-                >
-                    <ChevronLeft size={16} />
-                    Update Preferences
-                </Button>
+                {/* Loading state */}
+                {loading && (
+                    <div className="text-center py-12">
+                        <div className="inline-block animate-spin rounded-full h-8 w-8 border-b-2 border-primary"></div>
+                        <p className="text-muted-foreground mt-4">Loading meals...</p>
+                    </div>
+                )}
+
+                {/* Meals sections */}
+                {!loading && !error && (
+                    <>
+                        {["breakfast", "lunch", "dinner"].map(mealType => (
+                            <section key={mealType} className="mb-10">
+                                <h2 className="text-2xl font-bold text-foreground mb-4">
+                                    {mealType.charAt(0).toUpperCase() + mealType.slice(1)}
+                                </h2>
+                                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+                                    {filterMeals(mealType as "breakfast" | "lunch" | "dinner").length > 0 ? (
+                                        filterMeals(mealType as "breakfast" | "lunch" | "dinner").map(meal => (
+                                            <MealCard key={meal.id} meal={meal} />
+                                        ))
+                                    ) : (
+                                        <p className="text-muted-foreground col-span-full">
+                                            No meals match your preferences
+                                        </p>
+                                    )}
+                                </div>
+                            </section>
+                        ))}
+
+                        <Button
+                            onClick={onBack}
+                            variant="outline"
+                            className="border-border hover:bg-muted"
+                        >
+                            <ChevronLeft size={16} />
+                            Update Preferences
+                        </Button>
+                    </>
+                )}
             </div>
 
             {/* Nutrition Details Dialog */}
@@ -178,7 +223,7 @@ const MealPlanner = ({ allergens, dietaryPrefs, onBack }: MealPlannerProps) => {
                                 </div>
                             </div>
 
-                            {selectedMeal.allergens.length > 0 && (
+                            {selectedMeal.allergens && selectedMeal.allergens.length > 0 && (
                                 <div className="border-t border-border pt-4">
                                     <h4 className="font-semibold text-foreground mb-2">Contains Allergens</h4>
                                     <div className="flex flex-wrap gap-2">
@@ -194,7 +239,7 @@ const MealPlanner = ({ allergens, dietaryPrefs, onBack }: MealPlannerProps) => {
                                 </div>
                             )}
 
-                            {selectedMeal.dietaryRestrictions.length > 0 && (
+                            {selectedMeal.dietaryRestrictions && selectedMeal.dietaryRestrictions.length > 0 && (
                                 <div className="border-t border-border pt-4">
                                     <h4 className="font-semibold text-foreground mb-2">Dietary Restrictions</h4>
                                     <div className="flex flex-wrap gap-2">
@@ -204,6 +249,22 @@ const MealPlanner = ({ allergens, dietaryPrefs, onBack }: MealPlannerProps) => {
                                                 className="text-sm bg-primary/20 text-primary px-2 py-1 rounded"
                                             >
                                                 {tag}
+                                            </span>
+                                        ))}
+                                    </div>
+                                </div>
+                            )}
+
+                            {selectedMeal.ingredients && selectedMeal.ingredients.length > 0 && (
+                                <div className="border-t border-border pt-4">
+                                    <h4 className="font-semibold text-foreground mb-2">Ingredients</h4>
+                                    <div className="flex flex-wrap gap-2">
+                                        {selectedMeal.ingredients.map(ingredient => (
+                                            <span
+                                                key={ingredient}
+                                                className="text-xs bg-muted text-foreground px-2 py-1 rounded"
+                                            >
+                                                {ingredient}
                                             </span>
                                         ))}
                                     </div>
@@ -225,3 +286,4 @@ const MealPlanner = ({ allergens, dietaryPrefs, onBack }: MealPlannerProps) => {
 };
 
 export default MealPlanner;
+

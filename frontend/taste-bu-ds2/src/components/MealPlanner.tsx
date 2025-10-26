@@ -31,6 +31,9 @@ interface Meal {
     ingredients: string[];
 }
 
+// Use environment variable for API URL, fallback to localhost
+const API_BASE_URL = import.meta.env.VITE_API_URL || "http://127.0.0.1:5001";
+
 const MealPlanner = ({ allergens, dietaryPrefs, onBack }: MealPlannerProps) => {
     const [meals, setMeals] = useState<Meal[]>([]);
     const [selectedMeal, setSelectedMeal] = useState<Meal | null>(null);
@@ -43,7 +46,9 @@ const MealPlanner = ({ allergens, dietaryPrefs, onBack }: MealPlannerProps) => {
         setError(null);
         
         try {
-            const response = await fetch("http://127.0.0.1:5001/filter_foods", {
+            console.log(`🔌 Connecting to: ${API_BASE_URL}/filter_foods`);
+            
+            const response = await fetch(`${API_BASE_URL}/filter_foods`, {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ 
@@ -62,10 +67,8 @@ const MealPlanner = ({ allergens, dietaryPrefs, onBack }: MealPlannerProps) => {
             // Handle the backend response structure
             let safeMeals: Meal[] = [];
             if (data.safe_foods) {
-                // New backend format: {safe_foods: [...], total_filtered: ..., restricted_ingredients: [...]}
                 safeMeals = data.safe_foods;
             } else if (Array.isArray(data)) {
-                // Old backend format: direct array
                 safeMeals = data;
             }
 
@@ -138,7 +141,10 @@ const MealPlanner = ({ allergens, dietaryPrefs, onBack }: MealPlannerProps) => {
                             <p className="text-destructive font-semibold">Error loading meals</p>
                             <p className="text-sm text-muted-foreground">{error}</p>
                             <p className="text-sm text-muted-foreground mt-1">
-                                Make sure your Flask backend is running on port 5001
+                                Backend URL: {API_BASE_URL}
+                            </p>
+                            <p className="text-sm text-muted-foreground">
+                                Make sure your Flask backend is running
                             </p>
                         </div>
                         <Button 

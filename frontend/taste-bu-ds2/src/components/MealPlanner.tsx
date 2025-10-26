@@ -24,6 +24,7 @@ interface Meal {
     allergens: string[];
     tags: string[];
     description: string;
+    ingredients: string[];
 }
 
 const mockMeals: Meal[] = mealsData as Meal[];
